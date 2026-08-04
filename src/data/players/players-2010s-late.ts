@@ -355,6 +355,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "swansea-2016-17-borja-baston", playerName: "Borja Baston", clubId: "swansea", seasonId: "2016-17", position: "ST", overall: 64, attributes: { pace: 53, shooting: 56, passing: 48, defending: 17, physical: 63 } },
   { id: "swansea-2016-17-jefferson-montero", playerName: "Jefferson Montero", clubId: "swansea", seasonId: "2016-17", position: "RW", overall: 66, attributes: { pace: 79, shooting: 53, passing: 60, defending: 34, physical: 41 } },
   { id: "swansea-2016-17-andre-ayew", playerName: "Andre Ayew", clubId: "swansea", seasonId: "2016-17", position: "LW", overall: 70, attributes: { pace: 81, shooting: 59, passing: 64, defending: 32, physical: 45 } },
+  { id: "swansea-2016-17-kyle-bartley", playerName: "Kyle Bartley", clubId: "swansea", seasonId: "2016-17", position: "CB", overall: 64, attributes: { pace: 46, shooting: 24, passing: 55, defending: 71, physical: 64 } },
 
   { id: "watford-2016-17-heurelho-gomes", playerName: "Heurelho Gomes", clubId: "watford", seasonId: "2016-17", position: "GK", overall: 74, attributes: { pace: 40, shooting: 48, passing: 52, defending: 74, physical: 74 } },
   { id: "watford-2016-17-sebastian-prodl", playerName: "Sebastian Prödl", clubId: "watford", seasonId: "2016-17", position: "CB", overall: 73, attributes: { pace: 55, shooting: 26, passing: 55, defending: 75, physical: 76 } },
@@ -474,6 +475,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "brighton-2017-18-solly-march", playerName: "Solly March", clubId: "brighton", seasonId: "2017-18", position: "LM", overall: 68, attributes: { pace: 70, shooting: 58, passing: 68, defending: 35, physical: 48 } },
   { id: "brighton-2017-18-izzy-brown", playerName: "Izzy Brown", clubId: "brighton", seasonId: "2017-18", position: "CAM", overall: 62, attributes: { pace: 59, shooting: 58, passing: 67, defending: 26, physical: 41 } },
   { id: "brighton-2017-18-ezequiel-schelotto", playerName: "Ezequiel Schelotto", clubId: "brighton", seasonId: "2017-18", position: "RB", overall: 62, attributes: { pace: 65, shooting: 38, passing: 58, defending: 57, physical: 60 } },
+  { id: "brighton-2017-18-sam-baldock", playerName: "Sam Baldock", clubId: "brighton", seasonId: "2017-18", position: "ST", overall: 62, attributes: { pace: 63, shooting: 63, passing: 37, defending: 21, physical: 66 } },
 
   { id: "burnley-2017-18-nick-pope", playerName: "Nick Pope", clubId: "burnley", seasonId: "2017-18", position: "GK", overall: 79, attributes: { pace: 42, shooting: 50, passing: 55, defending: 80, physical: 76 }, note: "England call-up after breakout season" },
   { id: "burnley-2017-18-ben-mee", playerName: "Ben Mee", clubId: "burnley", seasonId: "2017-18", position: "CB", overall: 78, attributes: { pace: 63, shooting: 28, passing: 56, defending: 79, physical: 80 } },
@@ -492,6 +494,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "burnley-2017-18-charlie-taylor", playerName: "Charlie Taylor", clubId: "burnley", seasonId: "2017-18", position: "LB", overall: 68, attributes: { pace: 69, shooting: 38, passing: 55, defending: 64, physical: 57 } },
   { id: "burnley-2017-18-steven-defour", playerName: "Steven Defour", clubId: "burnley", seasonId: "2017-18", position: "CAM", overall: 70, attributes: { pace: 62, shooting: 70, passing: 79, defending: 28, physical: 42 } },
   { id: "burnley-2017-18-aiden-o-neill", playerName: "Aiden O'Neill", clubId: "burnley", seasonId: "2017-18", position: "CM", overall: 55, attributes: { pace: 49, shooting: 37, passing: 57, defending: 37, physical: 52 } },
+  { id: "burnley-2017-18-rouwen-hennings", playerName: "Rouwen Hennings", clubId: "burnley", seasonId: "2017-18", position: "ST", overall: 56, attributes: { pace: 54, shooting: 52, passing: 36, defending: 15, physical: 58 } },
 
   { id: "chelsea-2017-18-thibaut-courtois", playerName: "Thibaut Courtois", clubId: "chelsea", seasonId: "2017-18", position: "GK", overall: 89, attributes: { pace: 50, shooting: 56, passing: 64, defending: 90, physical: 86 } },
   { id: "chelsea-2017-18-cesar-azpilicueta", playerName: "César Azpilicueta", clubId: "chelsea", seasonId: "2017-18", position: "CB", overall: 84, attributes: { pace: 70, shooting: 35, passing: 76, defending: 84, physical: 76 } },
@@ -567,6 +570,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "huddersfield-2017-18-danny-williams", playerName: "Danny Williams", clubId: "huddersfield", seasonId: "2017-18", position: "CM", overall: 64, attributes: { pace: 56, shooting: 50, passing: 71, defending: 54, physical: 63 } },
   { id: "huddersfield-2017-18-laurent-depoitre", playerName: "Laurent Depoitre", clubId: "huddersfield", seasonId: "2017-18", position: "ST", overall: 64, attributes: { pace: 54, shooting: 68, passing: 44, defending: 15, physical: 70 } },
   { id: "huddersfield-2017-18-zanka", playerName: "Zanka", clubId: "huddersfield", seasonId: "2017-18", position: "CB", overall: 68, attributes: { pace: 52, shooting: 19, passing: 51, defending: 77, physical: 70 } },
+  { id: "huddersfield-2017-18-scott-malone", playerName: "Scott Malone", clubId: "huddersfield", seasonId: "2017-18", position: "LB", overall: 62, attributes: { pace: 74, shooting: 29, passing: 49, defending: 53, physical: 49 } },
+  { id: "huddersfield-2017-18-tom-ince", playerName: "Tom Ince", clubId: "huddersfield", seasonId: "2017-18", position: "RW", overall: 64, attributes: { pace: 76, shooting: 51, passing: 56, defending: 20, physical: 42 } },
 
   { id: "leicester-2017-18-kasper-schmeichel", playerName: "Kasper Schmeichel", clubId: "leicester", seasonId: "2017-18", position: "GK", overall: 81, attributes: { pace: 42, shooting: 52, passing: 58, defending: 81, physical: 78 } },
   { id: "leicester-2017-18-wes-morgan", playerName: "Wes Morgan", clubId: "leicester", seasonId: "2017-18", position: "CB", overall: 75, attributes: { pace: 50, shooting: 28, passing: 52, defending: 77, physical: 78 } },
@@ -681,6 +686,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "southampton-2017-18-shane-long", playerName: "Shane Long", clubId: "southampton", seasonId: "2017-18", position: "ST", overall: 68, attributes: { pace: 57, shooting: 66, passing: 45, defending: 22, physical: 73 } },
   { id: "southampton-2017-18-charlie-austin", playerName: "Charlie Austin", clubId: "southampton", seasonId: "2017-18", position: "ST", overall: 68, attributes: { pace: 69, shooting: 66, passing: 46, defending: 22, physical: 72 } },
   { id: "southampton-2017-18-steven-davis", playerName: "Steven Davis", clubId: "southampton", seasonId: "2017-18", position: "CM", overall: 73, attributes: { pace: 62, shooting: 63, passing: 71, defending: 62, physical: 66 } },
+  { id: "southampton-2017-18-josh-sims", playerName: "Josh Sims", clubId: "southampton", seasonId: "2017-18", position: "RW", overall: 56, attributes: { pace: 69, shooting: 51, passing: 52, defending: 24, physical: 39 } },
 
   { id: "tottenham-2017-18-hugo-lloris", playerName: "Hugo Lloris", clubId: "tottenham", seasonId: "2017-18", position: "GK", overall: 87, attributes: { pace: 48, shooting: 52, passing: 62, defending: 88, physical: 78 }, note: "Club captain" },
   { id: "tottenham-2017-18-kieran-trippier", playerName: "Kieran Trippier", clubId: "tottenham", seasonId: "2017-18", position: "RB", overall: 80, attributes: { pace: 78, shooting: 55, passing: 82, defending: 74, physical: 65 } },
@@ -739,6 +745,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "swansea-2017-18-angel-rangel", playerName: "Angel Rangel", clubId: "swansea", seasonId: "2017-18", position: "RB", overall: 65, attributes: { pace: 71, shooting: 37, passing: 51, defending: 61, physical: 51 } },
   { id: "swansea-2017-18-roque-mesa", playerName: "Roque Mesa", clubId: "swansea", seasonId: "2017-18", position: "CDM", overall: 64, attributes: { pace: 52, shooting: 44, passing: 64, defending: 63, physical: 63 } },
   { id: "swansea-2017-18-andy-king", playerName: "Andy King", clubId: "swansea", seasonId: "2017-18", position: "CM", overall: 64, attributes: { pace: 51, shooting: 58, passing: 70, defending: 51, physical: 61 } },
+  { id: "swansea-2017-18-renato-sanches", playerName: "Renato Sanches", clubId: "swansea", seasonId: "2017-18", position: "CM", overall: 68, attributes: { pace: 60, shooting: 51, passing: 68, defending: 52, physical: 63 } },
 
   { id: "watford-2017-18-heurelho-gomes", playerName: "Heurelho Gomes", clubId: "watford", seasonId: "2017-18", position: "GK", overall: 73, attributes: { pace: 38, shooting: 46, passing: 50, defending: 73, physical: 73 } },
   { id: "watford-2017-18-christian-kabasele", playerName: "Christian Kabasele", clubId: "watford", seasonId: "2017-18", position: "CB", overall: 71, attributes: { pace: 62, shooting: 26, passing: 55, defending: 73, physical: 76 } },
@@ -757,6 +764,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "watford-2017-18-isaac-success", playerName: "Isaac Success", clubId: "watford", seasonId: "2017-18", position: "ST", overall: 64, attributes: { pace: 60, shooting: 60, passing: 38, defending: 15, physical: 61 } },
   { id: "watford-2017-18-andre-gray", playerName: "Andre Gray", clubId: "watford", seasonId: "2017-18", position: "ST", overall: 70, attributes: { pace: 69, shooting: 63, passing: 42, defending: 21, physical: 67 } },
   { id: "watford-2017-18-stefano-okaka", playerName: "Stefano Okaka", clubId: "watford", seasonId: "2017-18", position: "ST", overall: 66, attributes: { pace: 62, shooting: 65, passing: 44, defending: 18, physical: 69 } },
+  { id: "watford-2017-18-younes-kaboul", playerName: "Younes Kaboul", clubId: "watford", seasonId: "2017-18", position: "CB", overall: 64, attributes: { pace: 50, shooting: 23, passing: 50, defending: 69, physical: 69 } },
 
   { id: "west-brom-2017-18-ben-foster", playerName: "Ben Foster", clubId: "west-brom", seasonId: "2017-18", position: "GK", overall: 77, attributes: { pace: 38, shooting: 48, passing: 55, defending: 78, physical: 75 } },
   { id: "west-brom-2017-18-ahmed-hegazi", playerName: "Ahmed Hegazi", clubId: "west-brom", seasonId: "2017-18", position: "CB", overall: 73, attributes: { pace: 58, shooting: 26, passing: 52, defending: 75, physical: 76 } },
@@ -775,6 +783,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "west-brom-2017-18-sam-field", playerName: "Sam Field", clubId: "west-brom", seasonId: "2017-18", position: "CM", overall: 58, attributes: { pace: 56, shooting: 51, passing: 65, defending: 41, physical: 58 } },
   { id: "west-brom-2017-18-gareth-barry", playerName: "Gareth Barry", clubId: "west-brom", seasonId: "2017-18", position: "CM", overall: 68, attributes: { pace: 66, shooting: 54, passing: 67, defending: 61, physical: 67 } },
   { id: "west-brom-2017-18-oliver-burke", playerName: "Oliver Burke", clubId: "west-brom", seasonId: "2017-18", position: "RW", overall: 64, attributes: { pace: 72, shooting: 59, passing: 62, defending: 24, physical: 39 } },
+  { id: "west-brom-2017-18-rekeem-harper", playerName: "Rekeem Harper", clubId: "west-brom", seasonId: "2017-18", position: "CM", overall: 56, attributes: { pace: 52, shooting: 39, passing: 55, defending: 42, physical: 56 } },
 
   { id: "west-ham-2017-18-joe-hart", playerName: "Joe Hart", clubId: "west-ham", seasonId: "2017-18", position: "GK", overall: 75, attributes: { pace: 42, shooting: 50, passing: 55, defending: 76, physical: 76 } },
   { id: "west-ham-2017-18-winston-reid", playerName: "Winston Reid", clubId: "west-ham", seasonId: "2017-18", position: "CB", overall: 73, attributes: { pace: 54, shooting: 26, passing: 54, defending: 74, physical: 77 } },
@@ -792,7 +801,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "west-ham-2017-18-andy-carroll", playerName: "Andy Carroll", clubId: "west-ham", seasonId: "2017-18", position: "ST", overall: 73, attributes: { pace: 72, shooting: 66, passing: 47, defending: 22, physical: 77 } },
   { id: "west-ham-2017-18-arthur-masuaku", playerName: "Arthur Masuaku", clubId: "west-ham", seasonId: "2017-18", position: "LB", overall: 68, attributes: { pace: 70, shooting: 35, passing: 65, defending: 67, physical: 65 } },
   { id: "west-ham-2017-18-edimilson-fernandes", playerName: "Edimilson Fernandes", clubId: "west-ham", seasonId: "2017-18", position: "CM", overall: 62, attributes: { pace: 57, shooting: 49, passing: 61, defending: 51, physical: 52 } },
-  { id: "west-ham-2017-18-marko-arnautovic", playerName: "Marko Arnautovic", clubId: "west-ham", seasonId: "2017-18", position: "LW", overall: 77, attributes: { pace: 93, shooting: 71, passing: 74, defending: 39, physical: 61 } },
+  { id: "west-ham-2017-18-domingos-quina", playerName: "Domingos Quina", clubId: "west-ham", seasonId: "2017-18", position: "CM", overall: 56, attributes: { pace: 54, shooting: 47, passing: 55, defending: 46, physical: 49 } },
+  { id: "west-ham-2017-18-reece-burke", playerName: "Reece Burke", clubId: "west-ham", seasonId: "2017-18", position: "CB", overall: 56, attributes: { pace: 41, shooting: 15, passing: 39, defending: 65, physical: 59 } },
 
   // ===== 2018-19 =====
   { id: "arsenal-2018-19-bernd-leno", playerName: "Bernd Leno", clubId: "arsenal", seasonId: "2018-19", position: "GK", overall: 79, attributes: { pace: 44, shooting: 52, passing: 60, defending: 80, physical: 74 } },
@@ -832,6 +842,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "bournemouth-2018-19-junior-stanislas", playerName: "Junior Stanislas", clubId: "bournemouth", seasonId: "2018-19", position: "RM", overall: 71, attributes: { pace: 78, shooting: 64, passing: 72, defending: 42, physical: 61 } },
   { id: "bournemouth-2018-19-jordon-ibe", playerName: "Jordon Ibe", clubId: "bournemouth", seasonId: "2018-19", position: "RW", overall: 64, attributes: { pace: 76, shooting: 62, passing: 60, defending: 25, physical: 40 } },
   { id: "bournemouth-2018-19-diego-rico", playerName: "Diego Rico", clubId: "bournemouth", seasonId: "2018-19", position: "LB", overall: 64, attributes: { pace: 70, shooting: 39, passing: 55, defending: 55, physical: 52 } },
+  { id: "bournemouth-2018-19-jack-simpson", playerName: "Jack Simpson", clubId: "bournemouth", seasonId: "2018-19", position: "CB", overall: 60, attributes: { pace: 51, shooting: 15, passing: 42, defending: 65, physical: 71 } },
 
   { id: "brighton-2018-19-mathew-ryan", playerName: "Mathew Ryan", clubId: "brighton", seasonId: "2018-19", position: "GK", overall: 76, attributes: { pace: 42, shooting: 50, passing: 58, defending: 77, physical: 72 } },
   { id: "brighton-2018-19-lewis-dunk", playerName: "Lewis Dunk", clubId: "brighton", seasonId: "2018-19", position: "CB", overall: 79, attributes: { pace: 60, shooting: 32, passing: 64, defending: 80, physical: 79 } },
@@ -850,6 +861,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "brighton-2018-19-yves-bissouma", playerName: "Yves Bissouma", clubId: "brighton", seasonId: "2018-19", position: "CDM", overall: 68, attributes: { pace: 64, shooting: 53, passing: 58, defending: 65, physical: 67 } },
   { id: "brighton-2018-19-izzy-brown", playerName: "Izzy Brown", clubId: "brighton", seasonId: "2018-19", position: "CAM", overall: 62, attributes: { pace: 59, shooting: 58, passing: 67, defending: 26, physical: 41 } },
   { id: "brighton-2018-19-leon-balogun", playerName: "Leon Balogun", clubId: "brighton", seasonId: "2018-19", position: "CB", overall: 68, attributes: { pace: 51, shooting: 17, passing: 50, defending: 70, physical: 67 } },
+  { id: "brighton-2018-19-florin-andone", playerName: "Florin Andone", clubId: "brighton", seasonId: "2018-19", position: "ST", overall: 62, attributes: { pace: 51, shooting: 66, passing: 46, defending: 22, physical: 58 } },
 
   { id: "burnley-2018-19-nick-pope", playerName: "Nick Pope", clubId: "burnley", seasonId: "2018-19", position: "GK", overall: 78, attributes: { pace: 42, shooting: 50, passing: 55, defending: 79, physical: 76 } },
   { id: "burnley-2018-19-ben-mee", playerName: "Ben Mee", clubId: "burnley", seasonId: "2018-19", position: "CB", overall: 77, attributes: { pace: 61, shooting: 28, passing: 55, defending: 78, physical: 79 } },
@@ -982,6 +994,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "huddersfield-2018-19-erik-durm", playerName: "Erik Durm", clubId: "huddersfield", seasonId: "2018-19", position: "LB", overall: 64, attributes: { pace: 71, shooting: 36, passing: 60, defending: 67, physical: 55 } },
   { id: "huddersfield-2018-19-isaac-mbenza", playerName: "Isaac Mbenza", clubId: "huddersfield", seasonId: "2018-19", position: "RW", overall: 62, attributes: { pace: 77, shooting: 59, passing: 59, defending: 23, physical: 46 } },
   { id: "huddersfield-2018-19-danny-williams", playerName: "Danny Williams", clubId: "huddersfield", seasonId: "2018-19", position: "CM", overall: 64, attributes: { pace: 56, shooting: 50, passing: 71, defending: 54, physical: 63 } },
+  { id: "huddersfield-2018-19-adama-diakhaby", playerName: "Adama Diakhaby", clubId: "huddersfield", seasonId: "2018-19", position: "RW", overall: 62, attributes: { pace: 78, shooting: 60, passing: 49, defending: 28, physical: 46 } },
 
   { id: "leicester-2018-19-kasper-schmeichel", playerName: "Kasper Schmeichel", clubId: "leicester", seasonId: "2018-19", position: "GK", overall: 81, attributes: { pace: 42, shooting: 52, passing: 58, defending: 82, physical: 78 } },
   { id: "leicester-2018-19-ricardo-pereira", playerName: "Ricardo Pereira", clubId: "leicester", seasonId: "2018-19", position: "RB", overall: 80, attributes: { pace: 82, shooting: 48, passing: 74, defending: 76, physical: 68 }, note: "Player of the Season" },
@@ -1038,6 +1051,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "man-city-2018-19-riyad-mahrez", playerName: "Riyad Mahrez", clubId: "man-city", seasonId: "2018-19", position: "RW", overall: 82, attributes: { pace: 86, shooting: 80, passing: 72, defending: 40, physical: 56 } },
   { id: "man-city-2018-19-oleksandr-zinchenko", playerName: "Oleksandr Zinchenko", clubId: "man-city", seasonId: "2018-19", position: "LB", overall: 68, attributes: { pace: 80, shooting: 44, passing: 59, defending: 69, physical: 62 } },
   { id: "man-city-2018-19-john-stones", playerName: "John Stones", clubId: "man-city", seasonId: "2018-19", position: "CB", overall: 80, attributes: { pace: 69, shooting: 37, passing: 59, defending: 81, physical: 86 } },
+  { id: "man-city-2018-19-yaya-toure", playerName: "Yaya Toure", clubId: "man-city", seasonId: "2018-19", position: "CM", overall: 70, attributes: { pace: 65, shooting: 54, passing: 67, defending: 60, physical: 62 } },
 
   { id: "man-utd-2018-19-david-de-gea", playerName: "David de Gea", clubId: "man-utd", seasonId: "2018-19", position: "GK", overall: 87, attributes: { pace: 48, shooting: 54, passing: 63, defending: 89, physical: 78 } },
   { id: "man-utd-2018-19-antonio-valencia", playerName: "Antonio Valencia", clubId: "man-utd", seasonId: "2018-19", position: "RB", overall: 76, attributes: { pace: 72, shooting: 34, passing: 62, defending: 73, physical: 74 } },
@@ -1075,6 +1089,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "newcastle-2018-19-kenedy", playerName: "Kenedy", clubId: "newcastle", seasonId: "2018-19", position: "LW", overall: 66, attributes: { pace: 77, shooting: 59, passing: 58, defending: 23, physical: 49 } },
   { id: "newcastle-2018-19-yoshinori-muto", playerName: "Yoshinori Muto", clubId: "newcastle", seasonId: "2018-19", position: "ST", overall: 64, attributes: { pace: 53, shooting: 57, passing: 39, defending: 25, physical: 61 } },
   { id: "newcastle-2018-19-ki-sung-yueng", playerName: "Ki Sung-yueng", clubId: "newcastle", seasonId: "2018-19", position: "CM", overall: 68, attributes: { pace: 59, shooting: 62, passing: 75, defending: 59, physical: 59 } },
+  { id: "newcastle-2018-19-achraf-lazaar", playerName: "Achraf Lazaar", clubId: "newcastle", seasonId: "2018-19", position: "LB", overall: 58, attributes: { pace: 67, shooting: 29, passing: 50, defending: 55, physical: 44 } },
 
   { id: "southampton-2018-19-alex-mccarthy", playerName: "Alex McCarthy", clubId: "southampton", seasonId: "2018-19", position: "GK", overall: 73, attributes: { pace: 40, shooting: 48, passing: 55, defending: 74, physical: 74 } },
   { id: "southampton-2018-19-jannik-vestergaard", playerName: "Jannik Vestergaard", clubId: "southampton", seasonId: "2018-19", position: "CB", overall: 73, attributes: { pace: 52, shooting: 28, passing: 58, defending: 75, physical: 80 } },
@@ -1130,6 +1145,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "watford-2018-19-marvin-zeegelaar", playerName: "Marvin Zeegelaar", clubId: "watford", seasonId: "2018-19", position: "LB", overall: 63, attributes: { pace: 75, shooting: 38, passing: 52, defending: 56, physical: 54 } },
   { id: "watford-2018-19-isaac-success", playerName: "Isaac Success", clubId: "watford", seasonId: "2018-19", position: "ST", overall: 64, attributes: { pace: 60, shooting: 60, passing: 38, defending: 15, physical: 61 } },
   { id: "watford-2018-19-adalberto-penaranda", playerName: "Adalberto Penaranda", clubId: "watford", seasonId: "2018-19", position: "LW", overall: 58, attributes: { pace: 65, shooting: 46, passing: 50, defending: 23, physical: 38 } },
+  { id: "watford-2018-19-kiko-femenia", playerName: "Kiko Femenia", clubId: "watford", seasonId: "2018-19", position: "RB", overall: 66, attributes: { pace: 68, shooting: 42, passing: 64, defending: 62, physical: 61 } },
+  { id: "watford-2018-19-domingos-quina", playerName: "Domingos Quina", clubId: "watford", seasonId: "2018-19", position: "CM", overall: 58, attributes: { pace: 56, shooting: 49, passing: 57, defending: 48, physical: 51 } },
 
   { id: "west-ham-2018-19-lukasz-fabianski", playerName: "Łukasz Fabiański", clubId: "west-ham", seasonId: "2018-19", position: "GK", overall: 79, attributes: { pace: 42, shooting: 50, passing: 56, defending: 80, physical: 75 } },
   { id: "west-ham-2018-19-fabian-balbuena", playerName: "Fabián Balbuena", clubId: "west-ham", seasonId: "2018-19", position: "CB", overall: 73, attributes: { pace: 58, shooting: 28, passing: 55, defending: 75, physical: 78 } },
@@ -1148,6 +1165,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "west-ham-2018-19-arthur-masuaku", playerName: "Arthur Masuaku", clubId: "west-ham", seasonId: "2018-19", position: "LB", overall: 68, attributes: { pace: 70, shooting: 35, passing: 65, defending: 67, physical: 65 } },
   { id: "west-ham-2018-19-robert-snodgrass", playerName: "Robert Snodgrass", clubId: "west-ham", seasonId: "2018-19", position: "RM", overall: 71, attributes: { pace: 84, shooting: 56, passing: 74, defending: 38, physical: 59 } },
   { id: "west-ham-2018-19-samir-nasri", playerName: "Samir Nasri", clubId: "west-ham", seasonId: "2018-19", position: "CAM", overall: 68, attributes: { pace: 67, shooting: 57, passing: 72, defending: 28, physical: 40 } },
+  { id: "west-ham-2018-19-xande-silva", playerName: "Xande Silva", clubId: "west-ham", seasonId: "2018-19", position: "ST", overall: 56, attributes: { pace: 48, shooting: 56, passing: 37, defending: 15, physical: 54 } },
 
   { id: "wolves-2018-19-rui-patricio", playerName: "Rui Patrício", clubId: "wolves", seasonId: "2018-19", position: "GK", overall: 81, attributes: { pace: 46, shooting: 52, passing: 62, defending: 82, physical: 76 } },
   { id: "wolves-2018-19-conor-coady", playerName: "Conor Coady", clubId: "wolves", seasonId: "2018-19", position: "CB", overall: 77, attributes: { pace: 58, shooting: 32, passing: 68, defending: 79, physical: 76 }, note: "Club captain" },
@@ -1166,6 +1184,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "wolves-2018-19-danny-batth", playerName: "Danny Batth", clubId: "wolves", seasonId: "2018-19", position: "CB", overall: 62, attributes: { pace: 53, shooting: 23, passing: 50, defending: 62, physical: 65 } },
   { id: "wolves-2018-19-ivan-cavaleiro", playerName: "Ivan Cavaleiro", clubId: "wolves", seasonId: "2018-19", position: "RW", overall: 68, attributes: { pace: 73, shooting: 59, passing: 66, defending: 32, physical: 43 } },
   { id: "wolves-2018-19-morgan-gibbs-white", playerName: "Morgan Gibbs-White", clubId: "wolves", seasonId: "2018-19", position: "CM", overall: 58, attributes: { pace: 51, shooting: 48, passing: 56, defending: 47, physical: 56 } },
+  { id: "wolves-2018-19-bright-enobakhare", playerName: "Bright Enobakhare", clubId: "wolves", seasonId: "2018-19", position: "CAM", overall: 56, attributes: { pace: 48, shooting: 47, passing: 60, defending: 20, physical: 30 } },
 
   // ===== 2019-20 =====
   { id: "arsenal-2019-20-bernd-leno", playerName: "Bernd Leno", clubId: "arsenal", seasonId: "2019-20", position: "GK", overall: 80, attributes: { pace: 44, shooting: 52, passing: 60, defending: 81, physical: 75 } },
@@ -1379,6 +1398,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "man-city-2019-20-phil-foden", playerName: "Phil Foden", clubId: "man-city", seasonId: "2019-20", position: "CAM", overall: 70, attributes: { pace: 65, shooting: 61, passing: 70, defending: 27, physical: 47 } },
   { id: "man-city-2019-20-fernandinho", playerName: "Fernandinho", clubId: "man-city", seasonId: "2019-20", position: "CDM", overall: 79, attributes: { pace: 73, shooting: 53, passing: 79, defending: 82, physical: 75 } },
   { id: "man-city-2019-20-danilo", playerName: "Danilo", clubId: "man-city", seasonId: "2019-20", position: "LB", overall: 73, attributes: { pace: 84, shooting: 47, passing: 71, defending: 64, physical: 64 } },
+  { id: "man-city-2019-20-taylor-harwood-bellis", playerName: "Taylor Harwood-Bellis", clubId: "man-city", seasonId: "2019-20", position: "CB", overall: 58, attributes: { pace: 51, shooting: 15, passing: 44, defending: 61, physical: 65 } },
 
   { id: "man-utd-2019-20-david-de-gea", playerName: "David de Gea", clubId: "man-utd", seasonId: "2019-20", position: "GK", overall: 84, attributes: { pace: 46, shooting: 52, passing: 62, defending: 86, physical: 78 } },
   { id: "man-utd-2019-20-aaron-wan-bissaka", playerName: "Aaron Wan-Bissaka", clubId: "man-utd", seasonId: "2019-20", position: "RB", overall: 79, attributes: { pace: 82, shooting: 36, passing: 64, defending: 83, physical: 73 } },
@@ -1416,6 +1436,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "newcastle-2019-20-matt-ritchie", playerName: "Matt Ritchie", clubId: "newcastle", seasonId: "2019-20", position: "LM", overall: 70, attributes: { pace: 74, shooting: 66, passing: 72, defending: 38, physical: 55 } },
   { id: "newcastle-2019-20-andy-carroll", playerName: "Andy Carroll", clubId: "newcastle", seasonId: "2019-20", position: "ST", overall: 68, attributes: { pace: 67, shooting: 61, passing: 42, defending: 17, physical: 72 } },
   { id: "newcastle-2019-20-christian-atsu", playerName: "Christian Atsu", clubId: "newcastle", seasonId: "2019-20", position: "RW", overall: 66, attributes: { pace: 77, shooting: 59, passing: 56, defending: 33, physical: 50 } },
+  { id: "newcastle-2019-20-danny-rose", playerName: "Danny Rose", clubId: "newcastle", seasonId: "2019-20", position: "LB", overall: 62, attributes: { pace: 71, shooting: 36, passing: 50, defending: 65, physical: 49 } },
+  { id: "newcastle-2019-20-sean-longstaff", playerName: "Sean Longstaff", clubId: "newcastle", seasonId: "2019-20", position: "CM", overall: 66, attributes: { pace: 56, shooting: 55, passing: 64, defending: 55, physical: 61 } },
 
   { id: "norwich-2019-20-tim-krul", playerName: "Tim Krul", clubId: "norwich", seasonId: "2019-20", position: "GK", overall: 74, attributes: { pace: 40, shooting: 48, passing: 55, defending: 75, physical: 74 } },
   { id: "norwich-2019-20-ben-godfrey", playerName: "Ben Godfrey", clubId: "norwich", seasonId: "2019-20", position: "CB", overall: 72, attributes: { pace: 66, shooting: 28, passing: 60, defending: 73, physical: 74 } },
@@ -1434,6 +1456,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "norwich-2019-20-josip-drmic", playerName: "Josip Drmic", clubId: "norwich", seasonId: "2019-20", position: "ST", overall: 62, attributes: { pace: 63, shooting: 59, passing: 35, defending: 15, physical: 61 } },
   { id: "norwich-2019-20-alex-tettey", playerName: "Alex Tettey", clubId: "norwich", seasonId: "2019-20", position: "CDM", overall: 64, attributes: { pace: 51, shooting: 39, passing: 58, defending: 67, physical: 69 } },
   { id: "norwich-2019-20-marco-stiepermann", playerName: "Marco Stiepermann", clubId: "norwich", seasonId: "2019-20", position: "CAM", overall: 62, attributes: { pace: 63, shooting: 54, passing: 68, defending: 19, physical: 38 } },
+  { id: "norwich-2019-20-louis-thompson", playerName: "Louis Thompson", clubId: "norwich", seasonId: "2019-20", position: "CM", overall: 58, attributes: { pace: 51, shooting: 42, passing: 62, defending: 42, physical: 51 } },
 
   { id: "sheffield-utd-2019-20-dean-henderson", playerName: "Dean Henderson", clubId: "sheffield-utd", seasonId: "2019-20", position: "GK", overall: 80, attributes: { pace: 46, shooting: 54, passing: 60, defending: 81, physical: 76 }, note: "Golden Glove contender on loan from Man Utd" },
   { id: "sheffield-utd-2019-20-john-egan", playerName: "John Egan", clubId: "sheffield-utd", seasonId: "2019-20", position: "CB", overall: 76, attributes: { pace: 60, shooting: 30, passing: 58, defending: 78, physical: 78 } },
@@ -1507,6 +1530,9 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "watford-2019-20-andre-gray", playerName: "Andre Gray", clubId: "watford", seasonId: "2019-20", position: "ST", overall: 67, attributes: { pace: 66, shooting: 60, passing: 39, defending: 18, physical: 64 } },
   { id: "watford-2019-20-domingos-quina", playerName: "Domingos Quina", clubId: "watford", seasonId: "2019-20", position: "CM", overall: 58, attributes: { pace: 56, shooting: 49, passing: 57, defending: 48, physical: 51 } },
   { id: "watford-2019-20-will-hughes", playerName: "Will Hughes", clubId: "watford", seasonId: "2019-20", position: "CM", overall: 66, attributes: { pace: 52, shooting: 55, passing: 64, defending: 57, physical: 61 } },
+  { id: "watford-2019-20-adalberto-penaranda", playerName: "Adalberto Penaranda", clubId: "watford", seasonId: "2019-20", position: "LW", overall: 58, attributes: { pace: 65, shooting: 46, passing: 50, defending: 23, physical: 38 } },
+  { id: "watford-2019-20-danny-welbeck", playerName: "Danny Welbeck", clubId: "watford", seasonId: "2019-20", position: "ST", overall: 70, attributes: { pace: 64, shooting: 68, passing: 44, defending: 27, physical: 75 } },
+  { id: "watford-2019-20-nathaniel-chalobah", playerName: "Nathaniel Chalobah", clubId: "watford", seasonId: "2019-20", position: "CDM", overall: 66, attributes: { pace: 54, shooting: 48, passing: 65, defending: 72, physical: 62 } },
 
   { id: "west-ham-2019-20-lukasz-fabianski", playerName: "Łukasz Fabiański", clubId: "west-ham", seasonId: "2019-20", position: "GK", overall: 77, attributes: { pace: 40, shooting: 50, passing: 55, defending: 78, physical: 75 } },
   { id: "west-ham-2019-20-issa-diop", playerName: "Issa Diop", clubId: "west-ham", seasonId: "2019-20", position: "CB", overall: 74, attributes: { pace: 62, shooting: 26, passing: 56, defending: 76, physical: 80 } },
@@ -1524,6 +1550,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "west-ham-2019-20-jack-wilshere", playerName: "Jack Wilshere", clubId: "west-ham", seasonId: "2019-20", position: "CM", overall: 64, attributes: { pace: 51, shooting: 51, passing: 68, defending: 48, physical: 60 } },
   { id: "west-ham-2019-20-pablo-zabaleta", playerName: "Pablo Zabaleta", clubId: "west-ham", seasonId: "2019-20", position: "RB", overall: 64, attributes: { pace: 65, shooting: 34, passing: 50, defending: 61, physical: 58 } },
   { id: "west-ham-2019-20-andriy-yarmolenko", playerName: "Andriy Yarmolenko", clubId: "west-ham", seasonId: "2019-20", position: "LW", overall: 68, attributes: { pace: 72, shooting: 57, passing: 65, defending: 28, physical: 44 } },
+  { id: "west-ham-2019-20-grady-diangana", playerName: "Grady Diangana", clubId: "west-ham", seasonId: "2019-20", position: "LW", overall: 62, attributes: { pace: 67, shooting: 56, passing: 52, defending: 20, physical: 37 } },
+  { id: "west-ham-2019-20-nathan-holland", playerName: "Nathan Holland", clubId: "west-ham", seasonId: "2019-20", position: "RW", overall: 56, attributes: { pace: 61, shooting: 43, passing: 43, defending: 21, physical: 38 } },
 
   { id: "wolves-2019-20-rui-patricio", playerName: "Rui Patrício", clubId: "wolves", seasonId: "2019-20", position: "GK", overall: 81, attributes: { pace: 46, shooting: 52, passing: 62, defending: 82, physical: 76 } },
   { id: "wolves-2019-20-conor-coady", playerName: "Conor Coady", clubId: "wolves", seasonId: "2019-20", position: "CB", overall: 78, attributes: { pace: 56, shooting: 32, passing: 70, defending: 80, physical: 76 } },
@@ -1702,6 +1730,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "fulham-2020-21-ivan-cavaleiro", playerName: "Ivan Cavaleiro", clubId: "fulham", seasonId: "2020-21", position: "RW", overall: 66, attributes: { pace: 71, shooting: 57, passing: 64, defending: 30, physical: 41 } },
   { id: "fulham-2020-21-josh-maja", playerName: "Josh Maja", clubId: "fulham", seasonId: "2020-21", position: "ST", overall: 62, attributes: { pace: 56, shooting: 63, passing: 39, defending: 15, physical: 63 } },
   { id: "fulham-2020-21-ruben-loftus-cheek", playerName: "Ruben Loftus-Cheek", clubId: "fulham", seasonId: "2020-21", position: "CM", overall: 70, attributes: { pace: 62, shooting: 58, passing: 75, defending: 61, physical: 66 } },
+  { id: "fulham-2020-21-josh-onomah", playerName: "Josh Onomah", clubId: "fulham", seasonId: "2020-21", position: "CM", overall: 58, attributes: { pace: 55, shooting: 49, passing: 64, defending: 49, physical: 50 } },
 
   { id: "leeds-2020-21-illan-meslier", playerName: "Illan Meslier", clubId: "leeds", seasonId: "2020-21", position: "GK", overall: 78, attributes: { pace: 46, shooting: 52, passing: 60, defending: 79, physical: 74 }, note: "Breakout teenage season as Leeds returned to the top flight" },
   { id: "leeds-2020-21-liam-cooper", playerName: "Liam Cooper", clubId: "leeds", seasonId: "2020-21", position: "CB", overall: 74, attributes: { pace: 58, shooting: 28, passing: 62, defending: 76, physical: 74 }, note: "Club captain" },
@@ -1820,6 +1849,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "newcastle-2020-21-martin-dubravka", playerName: "Martin Dubravka", clubId: "newcastle", seasonId: "2020-21", position: "GK", overall: 77, attributes: { pace: 38, shooting: 60, passing: 58, defending: 80, physical: 77 } },
   { id: "newcastle-2020-21-ryan-fraser", playerName: "Ryan Fraser", clubId: "newcastle", seasonId: "2020-21", position: "LM", overall: 68, attributes: { pace: 79, shooting: 56, passing: 63, defending: 34, physical: 50 } },
   { id: "newcastle-2020-21-ciaran-clark", playerName: "Ciaran Clark", clubId: "newcastle", seasonId: "2020-21", position: "CB", overall: 68, attributes: { pace: 52, shooting: 20, passing: 54, defending: 77, physical: 79 } },
+  { id: "newcastle-2020-21-jetro-willems", playerName: "Jetro Willems", clubId: "newcastle", seasonId: "2020-21", position: "LB", overall: 62, attributes: { pace: 62, shooting: 28, passing: 54, defending: 61, physical: 60 } },
+  { id: "newcastle-2020-21-elliot-anderson", playerName: "Elliot Anderson", clubId: "newcastle", seasonId: "2020-21", position: "CM", overall: 56, attributes: { pace: 47, shooting: 45, passing: 56, defending: 39, physical: 55 } },
 
   { id: "sheffield-utd-2020-21-aaron-ramsdale", playerName: "Aaron Ramsdale", clubId: "sheffield-utd", seasonId: "2020-21", position: "GK", overall: 74, attributes: { pace: 40, shooting: 48, passing: 55, defending: 75, physical: 72 } },
   { id: "sheffield-utd-2020-21-john-egan", playerName: "John Egan", clubId: "sheffield-utd", seasonId: "2020-21", position: "CB", overall: 74, attributes: { pace: 56, shooting: 28, passing: 56, defending: 76, physical: 76 } },
@@ -1998,6 +2029,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "brentford-2021-22-marcus-forss", playerName: "Marcus Forss", clubId: "brentford", seasonId: "2021-22", position: "ST", overall: 62, attributes: { pace: 53, shooting: 61, passing: 38, defending: 19, physical: 66 } },
   { id: "brentford-2021-22-charlie-goode", playerName: "Charlie Goode", clubId: "brentford", seasonId: "2021-22", position: "CB", overall: 62, attributes: { pace: 51, shooting: 18, passing: 53, defending: 60, physical: 69 } },
   { id: "brentford-2021-22-shandon-baptiste", playerName: "Shandon Baptiste", clubId: "brentford", seasonId: "2021-22", position: "CM", overall: 62, attributes: { pace: 56, shooting: 52, passing: 69, defending: 44, physical: 57 } },
+  { id: "brentford-2021-22-tariqe-fosu", playerName: "Tariqe Fosu", clubId: "brentford", seasonId: "2021-22", position: "LW", overall: 60, attributes: { pace: 66, shooting: 47, passing: 54, defending: 23, physical: 37 } },
 
   { id: "brighton-2021-22-robert-sanchez", playerName: "Robert Sánchez", clubId: "brighton", seasonId: "2021-22", position: "GK", overall: 77, attributes: { pace: 44, shooting: 52, passing: 60, defending: 78, physical: 78 } },
   { id: "brighton-2021-22-lewis-dunk", playerName: "Lewis Dunk", clubId: "brighton", seasonId: "2021-22", position: "CB", overall: 80, attributes: { pace: 58, shooting: 32, passing: 70, defending: 81, physical: 79 } },
@@ -2016,6 +2048,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "brighton-2021-22-percy-tau", playerName: "Percy Tau", clubId: "brighton", seasonId: "2021-22", position: "LW", overall: 58, attributes: { pace: 67, shooting: 44, passing: 46, defending: 25, physical: 41 } },
   { id: "brighton-2021-22-steven-alzate", playerName: "Steven Alzate", clubId: "brighton", seasonId: "2021-22", position: "CM", overall: 64, attributes: { pace: 56, shooting: 57, passing: 72, defending: 58, physical: 63 } },
   { id: "brighton-2021-22-adam-lallana", playerName: "Adam Lallana", clubId: "brighton", seasonId: "2021-22", position: "CM", overall: 68, attributes: { pace: 59, shooting: 52, passing: 68, defending: 55, physical: 57 } },
+  { id: "brighton-2021-22-jakub-moder", playerName: "Jakub Moder", clubId: "brighton", seasonId: "2021-22", position: "CM", overall: 68, attributes: { pace: 66, shooting: 53, passing: 71, defending: 50, physical: 61 } },
 
   { id: "burnley-2021-22-nick-pope", playerName: "Nick Pope", clubId: "burnley", seasonId: "2021-22", position: "GK", overall: 79, attributes: { pace: 42, shooting: 50, passing: 56, defending: 80, physical: 76 } },
   { id: "burnley-2021-22-james-tarkowski", playerName: "James Tarkowski", clubId: "burnley", seasonId: "2021-22", position: "CB", overall: 78, attributes: { pace: 56, shooting: 30, passing: 58, defending: 79, physical: 80 } },
@@ -2210,6 +2243,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "newcastle-2021-22-isaac-hayden", playerName: "Isaac Hayden", clubId: "newcastle", seasonId: "2021-22", position: "CDM", overall: 66, attributes: { pace: 54, shooting: 52, passing: 61, defending: 75, physical: 72 } },
   { id: "newcastle-2021-22-matt-ritchie", playerName: "Matt Ritchie", clubId: "newcastle", seasonId: "2021-22", position: "LM", overall: 66, attributes: { pace: 70, shooting: 62, passing: 68, defending: 34, physical: 51 } },
   { id: "newcastle-2021-22-chris-wood", playerName: "Chris Wood", clubId: "newcastle", seasonId: "2021-22", position: "ST", overall: 74, attributes: { pace: 65, shooting: 69, passing: 50, defending: 29, physical: 72 } },
+  { id: "newcastle-2021-22-elliot-anderson", playerName: "Elliot Anderson", clubId: "newcastle", seasonId: "2021-22", position: "CM", overall: 58, attributes: { pace: 49, shooting: 47, passing: 58, defending: 41, physical: 57 } },
 
   { id: "norwich-2021-22-tim-krul", playerName: "Tim Krul", clubId: "norwich", seasonId: "2021-22", position: "GK", overall: 73, attributes: { pace: 38, shooting: 46, passing: 52, defending: 74, physical: 74 } },
   { id: "norwich-2021-22-grant-hanley", playerName: "Grant Hanley", clubId: "norwich", seasonId: "2021-22", position: "CB", overall: 69, attributes: { pace: 52, shooting: 26, passing: 50, defending: 72, physical: 75 } },
@@ -2285,6 +2319,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "watford-2021-22-ismaila-sarr", playerName: "Ismaila Sarr", clubId: "watford", seasonId: "2021-22", position: "RW", overall: 76, attributes: { pace: 83, shooting: 63, passing: 66, defending: 40, physical: 55 } },
   { id: "watford-2021-22-cucho-hernandez", playerName: "Cucho Hernandez", clubId: "watford", seasonId: "2021-22", position: "ST", overall: 68, attributes: { pace: 58, shooting: 72, passing: 49, defending: 23, physical: 75 } },
   { id: "watford-2021-22-juraj-kucka", playerName: "Juraj Kucka", clubId: "watford", seasonId: "2021-22", position: "CDM", overall: 68, attributes: { pace: 60, shooting: 52, passing: 59, defending: 71, physical: 68 } },
+  { id: "watford-2021-22-peter-etebo", playerName: "Peter Etebo", clubId: "watford", seasonId: "2021-22", position: "CDM", overall: 62, attributes: { pace: 56, shooting: 37, passing: 52, defending: 67, physical: 69 } },
 
   { id: "west-ham-2021-22-lukasz-fabianski", playerName: "Łukasz Fabiański", clubId: "west-ham", seasonId: "2021-22", position: "GK", overall: 78, attributes: { pace: 40, shooting: 50, passing: 55, defending: 79, physical: 76 } },
   { id: "west-ham-2021-22-vladimir-coufal", playerName: "Vladimír Coufal", clubId: "west-ham", seasonId: "2021-22", position: "RB", overall: 76, attributes: { pace: 78, shooting: 36, passing: 66, defending: 74, physical: 72 } },
@@ -2303,6 +2338,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "west-ham-2021-22-manuel-lanzini", playerName: "Manuel Lanzini", clubId: "west-ham", seasonId: "2021-22", position: "CAM", overall: 70, attributes: { pace: 60, shooting: 69, passing: 79, defending: 26, physical: 52 } },
   { id: "west-ham-2021-22-andriy-yarmolenko", playerName: "Andriy Yarmolenko", clubId: "west-ham", seasonId: "2021-22", position: "LW", overall: 70, attributes: { pace: 74, shooting: 59, passing: 67, defending: 30, physical: 46 } },
   { id: "west-ham-2021-22-nikola-vlasic", playerName: "Nikola Vlasic", clubId: "west-ham", seasonId: "2021-22", position: "CAM", overall: 68, attributes: { pace: 64, shooting: 68, passing: 67, defending: 25, physical: 45 } },
+  { id: "west-ham-2021-22-frederik-alves", playerName: "Frederik Alves", clubId: "west-ham", seasonId: "2021-22", position: "CB", overall: 56, attributes: { pace: 41, shooting: 15, passing: 47, defending: 56, physical: 55 } },
 
   { id: "wolves-2021-22-jose-sa", playerName: "José Sá", clubId: "wolves", seasonId: "2021-22", position: "GK", overall: 78, attributes: { pace: 44, shooting: 52, passing: 62, defending: 79, physical: 75 } },
   { id: "wolves-2021-22-max-kilman", playerName: "Max Kilman", clubId: "wolves", seasonId: "2021-22", position: "CB", overall: 76, attributes: { pace: 62, shooting: 28, passing: 68, defending: 78, physical: 78 } },
@@ -2401,6 +2437,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "brentford-2022-23-ben-mee", playerName: "Ben Mee", clubId: "brentford", seasonId: "2022-23", position: "CB", overall: 72, attributes: { pace: 55, shooting: 32, passing: 56, defending: 75, physical: 78 } },
   { id: "brentford-2022-23-sergio-reguilon", playerName: "Sergio Reguilon", clubId: "brentford", seasonId: "2022-23", position: "LB", overall: 68, attributes: { pace: 70, shooting: 42, passing: 55, defending: 67, physical: 64 } },
   { id: "brentford-2022-23-mads-roerslev", playerName: "Mads Roerslev", clubId: "brentford", seasonId: "2022-23", position: "RB", overall: 62, attributes: { pace: 71, shooting: 37, passing: 52, defending: 60, physical: 53 } },
+  { id: "brentford-2022-23-charlie-goode", playerName: "Charlie Goode", clubId: "brentford", seasonId: "2022-23", position: "CB", overall: 62, attributes: { pace: 51, shooting: 18, passing: 53, defending: 60, physical: 69 } },
 
   { id: "brighton-2022-23-jason-steele", playerName: "Jason Steele", clubId: "brighton", seasonId: "2022-23", position: "GK", overall: 74, attributes: { pace: 40, shooting: 50, passing: 62, defending: 75, physical: 74 } },
   { id: "brighton-2022-23-lewis-dunk", playerName: "Lewis Dunk", clubId: "brighton", seasonId: "2022-23", position: "CB", overall: 80, attributes: { pace: 58, shooting: 32, passing: 74, defending: 82, physical: 79 } },
@@ -2419,6 +2456,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "brighton-2022-23-deniz-undav", playerName: "Deniz Undav", clubId: "brighton", seasonId: "2022-23", position: "ST", overall: 66, attributes: { pace: 59, shooting: 63, passing: 50, defending: 16, physical: 70 } },
   { id: "brighton-2022-23-robert-sanchez", playerName: "Robert Sanchez", clubId: "brighton", seasonId: "2022-23", position: "GK", overall: 76, attributes: { pace: 39, shooting: 49, passing: 66, defending: 74, physical: 80 } },
   { id: "brighton-2022-23-julio-enciso", playerName: "Julio Enciso", clubId: "brighton", seasonId: "2022-23", position: "CAM", overall: 68, attributes: { pace: 66, shooting: 65, passing: 70, defending: 29, physical: 46 } },
+  { id: "brighton-2022-23-jeremy-sarmiento", playerName: "Jeremy Sarmiento", clubId: "brighton", seasonId: "2022-23", position: "RW", overall: 60, attributes: { pace: 64, shooting: 58, passing: 50, defending: 22, physical: 40 } },
 
   { id: "chelsea-2022-23-kepa-arrizabalaga", playerName: "Kepa Arrizabalaga", clubId: "chelsea", seasonId: "2022-23", position: "GK", overall: 77, attributes: { pace: 44, shooting: 54, passing: 62, defending: 78, physical: 76 } },
   { id: "chelsea-2022-23-reece-james", playerName: "Reece James", clubId: "chelsea", seasonId: "2022-23", position: "RB", overall: 82, attributes: { pace: 80, shooting: 66, passing: 78, defending: 78, physical: 78 } },
@@ -2494,6 +2532,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "fulham-2022-23-neeskens-kebano", playerName: "Neeskens Kebano", clubId: "fulham", seasonId: "2022-23", position: "RW", overall: 64, attributes: { pace: 79, shooting: 51, passing: 53, defending: 29, physical: 36 } },
   { id: "fulham-2022-23-shane-duffy", playerName: "Shane Duffy", clubId: "fulham", seasonId: "2022-23", position: "CB", overall: 68, attributes: { pace: 61, shooting: 17, passing: 49, defending: 71, physical: 72 } },
   { id: "fulham-2022-23-fabio-carvalho", playerName: "Fabio Carvalho", clubId: "fulham", seasonId: "2022-23", position: "CAM", overall: 64, attributes: { pace: 59, shooting: 58, passing: 67, defending: 28, physical: 40 } },
+  { id: "fulham-2022-23-bobby-de-cordova-reid", playerName: "Bobby De Cordova-Reid", clubId: "fulham", seasonId: "2022-23", position: "CM", overall: 66, attributes: { pace: 52, shooting: 58, passing: 66, defending: 60, physical: 57 } },
 
   { id: "leeds-2022-23-illan-meslier", playerName: "Illan Meslier", clubId: "leeds", seasonId: "2022-23", position: "GK", overall: 75, attributes: { pace: 44, shooting: 50, passing: 60, defending: 76, physical: 73 } },
   { id: "leeds-2022-23-robin-koch", playerName: "Robin Koch", clubId: "leeds", seasonId: "2022-23", position: "CB", overall: 72, attributes: { pace: 58, shooting: 26, passing: 60, defending: 73, physical: 74 } },
@@ -2569,6 +2608,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "man-city-2022-23-sergio-gomez", playerName: "Sergio Gomez", clubId: "man-city", seasonId: "2022-23", position: "LB", overall: 66, attributes: { pace: 74, shooting: 42, passing: 60, defending: 60, physical: 62 } },
   { id: "man-city-2022-23-kalvin-phillips", playerName: "Kalvin Phillips", clubId: "man-city", seasonId: "2022-23", position: "CDM", overall: 72, attributes: { pace: 64, shooting: 54, passing: 71, defending: 74, physical: 75 } },
   { id: "man-city-2022-23-julian-alvarez", playerName: "Julian Alvarez", clubId: "man-city", seasonId: "2022-23", position: "ST", overall: 78, attributes: { pace: 78, shooting: 80, passing: 51, defending: 39, physical: 74 } },
+  { id: "man-city-2022-23-cole-palmer", playerName: "Cole Palmer", clubId: "man-city", seasonId: "2022-23", position: "CAM", overall: 70, attributes: { pace: 70, shooting: 67, passing: 79, defending: 33, physical: 46 } },
 
   { id: "man-utd-2022-23-david-de-gea", playerName: "David de Gea", clubId: "man-utd", seasonId: "2022-23", position: "GK", overall: 82, attributes: { pace: 40, shooting: 52, passing: 62, defending: 84, physical: 78 }, note: "Golden Glove winner" },
   { id: "man-utd-2022-23-diogo-dalot", playerName: "Diogo Dalot", clubId: "man-utd", seasonId: "2022-23", position: "RB", overall: 77, attributes: { pace: 78, shooting: 42, passing: 72, defending: 74, physical: 70 } },
@@ -2646,6 +2686,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "southampton-2022-23-carlos-alcaraz", playerName: "Carlos Alcaraz", clubId: "southampton", seasonId: "2022-23", position: "CAM", overall: 64, attributes: { pace: 53, shooting: 60, passing: 71, defending: 23, physical: 45 } },
   { id: "southampton-2022-23-armel-bella-kotchap", playerName: "Armel Bella-Kotchap", clubId: "southampton", seasonId: "2022-23", position: "CB", overall: 64, attributes: { pace: 46, shooting: 22, passing: 51, defending: 64, physical: 71 } },
   { id: "southampton-2022-23-samuel-edozie", playerName: "Samuel Edozie", clubId: "southampton", seasonId: "2022-23", position: "RW", overall: 58, attributes: { pace: 62, shooting: 44, passing: 44, defending: 15, physical: 37 } },
+  { id: "southampton-2022-23-lyanco", playerName: "Lyanco", clubId: "southampton", seasonId: "2022-23", position: "CB", overall: 64, attributes: { pace: 55, shooting: 15, passing: 47, defending: 70, physical: 64 } },
 
   { id: "tottenham-2022-23-hugo-lloris", playerName: "Hugo Lloris", clubId: "tottenham", seasonId: "2022-23", position: "GK", overall: 80, attributes: { pace: 38, shooting: 48, passing: 60, defending: 81, physical: 76 } },
   { id: "tottenham-2022-23-cristian-romero", playerName: "Cristian Romero", clubId: "tottenham", seasonId: "2022-23", position: "CB", overall: 84, attributes: { pace: 74, shooting: 32, passing: 68, defending: 86, physical: 82 } },
@@ -2681,7 +2722,9 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "west-ham-2022-23-emerson-palmieri", playerName: "Emerson Palmieri", clubId: "west-ham", seasonId: "2022-23", position: "LB", overall: 72, attributes: { pace: 75, shooting: 36, passing: 70, defending: 66, physical: 62 } },
   { id: "west-ham-2022-23-flynn-downes", playerName: "Flynn Downes", clubId: "west-ham", seasonId: "2022-23", position: "CM", overall: 64, attributes: { pace: 55, shooting: 52, passing: 71, defending: 58, physical: 56 } },
   { id: "west-ham-2022-23-gianluca-scamacca", playerName: "Gianluca Scamacca", clubId: "west-ham", seasonId: "2022-23", position: "ST", overall: 72, attributes: { pace: 67, shooting: 74, passing: 55, defending: 30, physical: 80 } },
-  { id: "west-ham-2022-23-lucas-paqueta", playerName: "Lucas Paqueta", clubId: "west-ham", seasonId: "2022-23", position: "CAM", overall: 80, attributes: { pace: 73, shooting: 79, passing: 90, defending: 46, physical: 57 } },
+  { id: "west-ham-2022-23-danny-ings", playerName: "Danny Ings", clubId: "west-ham", seasonId: "2022-23", position: "ST", overall: 72, attributes: { pace: 61, shooting: 64, passing: 44, defending: 26, physical: 68 } },
+  { id: "west-ham-2022-23-divin-mubama", playerName: "Divin Mubama", clubId: "west-ham", seasonId: "2022-23", position: "ST", overall: 56, attributes: { pace: 46, shooting: 58, passing: 37, defending: 15, physical: 61 } },
+  { id: "west-ham-2022-23-maxwel-cornet", playerName: "Maxwel Cornet", clubId: "west-ham", seasonId: "2022-23", position: "LW", overall: 66, attributes: { pace: 78, shooting: 52, passing: 59, defending: 34, physical: 38 } },
 
   { id: "wolves-2022-23-jose-sa", playerName: "José Sá", clubId: "wolves", seasonId: "2022-23", position: "GK", overall: 76, attributes: { pace: 42, shooting: 50, passing: 60, defending: 77, physical: 74 } },
   { id: "wolves-2022-23-max-kilman", playerName: "Max Kilman", clubId: "wolves", seasonId: "2022-23", position: "CB", overall: 77, attributes: { pace: 64, shooting: 28, passing: 68, defending: 79, physical: 79 } },
@@ -2875,6 +2918,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "everton-2023-24-andre-gomes", playerName: "Andre Gomes", clubId: "everton", seasonId: "2023-24", position: "CM", overall: 64, attributes: { pace: 52, shooting: 55, passing: 61, defending: 47, physical: 54 } },
   { id: "everton-2023-24-arnaut-danjuma", playerName: "Arnaut Danjuma", clubId: "everton", seasonId: "2023-24", position: "LW", overall: 68, attributes: { pace: 84, shooting: 54, passing: 60, defending: 25, physical: 43 } },
   { id: "everton-2023-24-jack-harrison", playerName: "Jack Harrison", clubId: "everton", seasonId: "2023-24", position: "RW", overall: 68, attributes: { pace: 79, shooting: 55, passing: 58, defending: 36, physical: 43 } },
+  { id: "everton-2023-24-youssef-chermiti", playerName: "Youssef Chermiti", clubId: "everton", seasonId: "2023-24", position: "ST", overall: 60, attributes: { pace: 60, shooting: 53, passing: 32, defending: 15, physical: 57 } },
 
   { id: "fulham-2023-24-bernd-leno", playerName: "Bernd Leno", clubId: "fulham", seasonId: "2023-24", position: "GK", overall: 80, attributes: { pace: 42, shooting: 54, passing: 62, defending: 81, physical: 75 } },
   { id: "fulham-2023-24-tim-ream", playerName: "Tim Ream", clubId: "fulham", seasonId: "2023-24", position: "CB", overall: 70, attributes: { pace: 48, shooting: 24, passing: 60, defending: 71, physical: 67 } },
@@ -2893,6 +2937,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "fulham-2023-24-steven-benda", playerName: "Steven Benda", clubId: "fulham", seasonId: "2023-24", position: "GK", overall: 58, attributes: { pace: 20, shooting: 39, passing: 40, defending: 64, physical: 66 } },
   { id: "fulham-2023-24-adama-traore", playerName: "Adama Traore", clubId: "fulham", seasonId: "2023-24", position: "RW", overall: 68, attributes: { pace: 78, shooting: 54, passing: 54, defending: 25, physical: 42 } },
   { id: "fulham-2023-24-bobby-reid", playerName: "Bobby Reid", clubId: "fulham", seasonId: "2023-24", position: "RW", overall: 70, attributes: { pace: 86, shooting: 68, passing: 56, defending: 32, physical: 54 } },
+  { id: "fulham-2023-24-harry-wilson", playerName: "Harry Wilson", clubId: "fulham", seasonId: "2023-24", position: "RW", overall: 68, attributes: { pace: 83, shooting: 59, passing: 61, defending: 25, physical: 48 } },
 
   { id: "liverpool-2023-24-alisson", playerName: "Alisson", clubId: "liverpool", seasonId: "2023-24", position: "GK", overall: 87, attributes: { pace: 50, shooting: 64, passing: 80, defending: 87, physical: 80 } },
   { id: "liverpool-2023-24-trent-alexander-arnold", playerName: "Trent Alexander-Arnold", clubId: "liverpool", seasonId: "2023-24", position: "RB", overall: 86, attributes: { pace: 74, shooting: 60, passing: 89, defending: 74, physical: 66 } },
@@ -3064,6 +3109,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "west-ham-2023-24-lukasz-fabianski", playerName: "Lukasz Fabianski", clubId: "west-ham", seasonId: "2023-24", position: "GK", overall: 68, attributes: { pace: 30, shooting: 43, passing: 53, defending: 69, physical: 65 } },
   { id: "west-ham-2023-24-michail-antonio", playerName: "Michail Antonio", clubId: "west-ham", seasonId: "2023-24", position: "ST", overall: 74, attributes: { pace: 63, shooting: 68, passing: 54, defending: 29, physical: 78 } },
   { id: "west-ham-2023-24-james-ward-prowse", playerName: "James Ward-Prowse", clubId: "west-ham", seasonId: "2023-24", position: "CM", overall: 74, attributes: { pace: 60, shooting: 61, passing: 81, defending: 57, physical: 68 } },
+  { id: "west-ham-2023-24-ben-johnson", playerName: "Ben Johnson", clubId: "west-ham", seasonId: "2023-24", position: "RB", overall: 64, attributes: { pace: 67, shooting: 29, passing: 53, defending: 65, physical: 58 } },
+  { id: "west-ham-2023-24-divin-mubama", playerName: "Divin Mubama", clubId: "west-ham", seasonId: "2023-24", position: "ST", overall: 56, attributes: { pace: 46, shooting: 58, passing: 37, defending: 15, physical: 61 } },
 
   { id: "wolves-2023-24-jose-sa", playerName: "José Sá", clubId: "wolves", seasonId: "2023-24", position: "GK", overall: 76, attributes: { pace: 40, shooting: 50, passing: 60, defending: 77, physical: 74 } },
   { id: "wolves-2023-24-max-kilman", playerName: "Max Kilman", clubId: "wolves", seasonId: "2023-24", position: "CB", overall: 77, attributes: { pace: 62, shooting: 28, passing: 68, defending: 79, physical: 79 } },
@@ -3082,6 +3129,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "wolves-2023-24-sasa-kalajdzic", playerName: "Sasa Kalajdzic", clubId: "wolves", seasonId: "2023-24", position: "ST", overall: 64, attributes: { pace: 64, shooting: 58, passing: 39, defending: 24, physical: 65 } },
   { id: "wolves-2023-24-joe-hodge", playerName: "Joe Hodge", clubId: "wolves", seasonId: "2023-24", position: "CM", overall: 58, attributes: { pace: 46, shooting: 46, passing: 54, defending: 49, physical: 48 } },
   { id: "wolves-2023-24-chem-campbell", playerName: "Chem Campbell", clubId: "wolves", seasonId: "2023-24", position: "LW", overall: 56, attributes: { pace: 60, shooting: 48, passing: 47, defending: 23, physical: 32 } },
+  { id: "wolves-2023-24-nathan-fraser", playerName: "Nathan Fraser", clubId: "wolves", seasonId: "2023-24", position: "LW", overall: 56, attributes: { pace: 72, shooting: 52, passing: 44, defending: 19, physical: 32 } },
 
   // ===== 2024-25 =====
   { id: "arsenal-2024-25-david-raya", playerName: "David Raya", clubId: "arsenal", seasonId: "2024-25", position: "GK", overall: 84, attributes: { pace: 44, shooting: 60, passing: 78, defending: 85, physical: 76 } },
@@ -3122,6 +3170,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "aston-villa-2024-25-jacob-ramsey", playerName: "Jacob Ramsey", clubId: "aston-villa", seasonId: "2024-25", position: "CM", overall: 68, attributes: { pace: 60, shooting: 51, passing: 73, defending: 50, physical: 63 } },
   { id: "aston-villa-2024-25-leon-bailey", playerName: "Leon Bailey", clubId: "aston-villa", seasonId: "2024-25", position: "RW", overall: 74, attributes: { pace: 81, shooting: 62, passing: 67, defending: 40, physical: 58 } },
   { id: "aston-villa-2024-25-amadou-onana", playerName: "Amadou Onana", clubId: "aston-villa", seasonId: "2024-25", position: "CDM", overall: 76, attributes: { pace: 73, shooting: 50, passing: 71, defending: 81, physical: 72 } },
+  { id: "aston-villa-2024-25-kortney-hause", playerName: "Kortney Hause", clubId: "aston-villa", seasonId: "2024-25", position: "CB", overall: 64, attributes: { pace: 54, shooting: 24, passing: 43, defending: 74, physical: 73 } },
 
   { id: "bournemouth-2024-25-kepa-arrizabalaga", playerName: "Kepa Arrizabalaga", clubId: "bournemouth", seasonId: "2024-25", position: "GK", overall: 78, attributes: { pace: 42, shooting: 54, passing: 62, defending: 79, physical: 76 } },
   { id: "bournemouth-2024-25-marcos-senesi", playerName: "Marcos Senesi", clubId: "bournemouth", seasonId: "2024-25", position: "CB", overall: 77, attributes: { pace: 64, shooting: 26, passing: 66, defending: 79, physical: 78 } },
@@ -3330,7 +3379,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "man-city-2024-25-jack-grealish", playerName: "Jack Grealish", clubId: "man-city", seasonId: "2024-25", position: "LW", overall: 74, attributes: { pace: 79, shooting: 72, passing: 68, defending: 42, physical: 48 } },
   { id: "man-city-2024-25-matheus-nunes", playerName: "Matheus Nunes", clubId: "man-city", seasonId: "2024-25", position: "CM", overall: 74, attributes: { pace: 68, shooting: 66, passing: 70, defending: 62, physical: 63 } },
   { id: "man-city-2024-25-mateo-kovacic", playerName: "Mateo Kovacic", clubId: "man-city", seasonId: "2024-25", position: "CM", overall: 76, attributes: { pace: 72, shooting: 66, passing: 83, defending: 68, physical: 66 } },
-  { id: "man-city-2024-25-josko-gvardiol", playerName: "Josko Gvardiol", clubId: "man-city", seasonId: "2024-25", position: "CB", overall: 80, attributes: { pace: 64, shooting: 41, passing: 65, defending: 88, physical: 87 } },
+  { id: "man-city-2024-25-rico-lewis", playerName: "Rico Lewis", clubId: "man-city", seasonId: "2024-25", position: "RB", overall: 72, attributes: { pace: 73, shooting: 37, passing: 61, defending: 69, physical: 70 } },
 
   { id: "man-utd-2024-25-andre-onana", playerName: "André Onana", clubId: "man-utd", seasonId: "2024-25", position: "GK", overall: 76, attributes: { pace: 42, shooting: 60, passing: 76, defending: 76, physical: 73 } },
   { id: "man-utd-2024-25-diogo-dalot", playerName: "Diogo Dalot", clubId: "man-utd", seasonId: "2024-25", position: "RB", overall: 76, attributes: { pace: 74, shooting: 42, passing: 72, defending: 73, physical: 70 } },
@@ -3349,6 +3398,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "man-utd-2024-25-casemiro", playerName: "Casemiro", clubId: "man-utd", seasonId: "2024-25", position: "CDM", overall: 78, attributes: { pace: 67, shooting: 56, passing: 71, defending: 77, physical: 79 } },
   { id: "man-utd-2024-25-christian-eriksen", playerName: "Christian Eriksen", clubId: "man-utd", seasonId: "2024-25", position: "CM", overall: 70, attributes: { pace: 58, shooting: 60, passing: 75, defending: 61, physical: 58 } },
   { id: "man-utd-2024-25-antony", playerName: "Antony", clubId: "man-utd", seasonId: "2024-25", position: "RW", overall: 66, attributes: { pace: 71, shooting: 52, passing: 64, defending: 23, physical: 47 } },
+  { id: "man-utd-2024-25-amad-diallo", playerName: "Amad Diallo", clubId: "man-utd", seasonId: "2024-25", position: "RW", overall: 70, attributes: { pace: 85, shooting: 68, passing: 67, defending: 38, physical: 43 } },
 
   { id: "newcastle-2024-25-nick-pope", playerName: "Nick Pope", clubId: "newcastle", seasonId: "2024-25", position: "GK", overall: 80, attributes: { pace: 38, shooting: 50, passing: 58, defending: 81, physical: 78 } },
   { id: "newcastle-2024-25-kieran-trippier", playerName: "Kieran Trippier", clubId: "newcastle", seasonId: "2024-25", position: "RB", overall: 78, attributes: { pace: 60, shooting: 54, passing: 82, defending: 74, physical: 65 } },
@@ -3367,6 +3417,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "newcastle-2024-25-joe-willock", playerName: "Joe Willock", clubId: "newcastle", seasonId: "2024-25", position: "CM", overall: 68, attributes: { pace: 66, shooting: 62, passing: 76, defending: 57, physical: 56 } },
   { id: "newcastle-2024-25-harvey-barnes", playerName: "Harvey Barnes", clubId: "newcastle", seasonId: "2024-25", position: "LW", overall: 74, attributes: { pace: 86, shooting: 71, passing: 66, defending: 41, physical: 56 } },
   { id: "newcastle-2024-25-jamaal-lascelles", playerName: "Jamaal Lascelles", clubId: "newcastle", seasonId: "2024-25", position: "CB", overall: 64, attributes: { pace: 51, shooting: 23, passing: 45, defending: 66, physical: 67 } },
+  { id: "newcastle-2024-25-callum-wilson", playerName: "Callum Wilson", clubId: "newcastle", seasonId: "2024-25", position: "ST", overall: 76, attributes: { pace: 71, shooting: 71, passing: 56, defending: 30, physical: 84 } },
 
   { id: "nottingham-forest-2024-25-matz-sels", playerName: "Matz Sels", clubId: "nottingham-forest", seasonId: "2024-25", position: "GK", overall: 81, attributes: { pace: 42, shooting: 54, passing: 62, defending: 82, physical: 77 }, note: "Golden Glove contender in a shock European push" },
   { id: "nottingham-forest-2024-25-murillo", playerName: "Murillo", clubId: "nottingham-forest", seasonId: "2024-25", position: "CB", overall: 80, attributes: { pace: 78, shooting: 30, passing: 68, defending: 82, physical: 80 } },
@@ -3385,6 +3436,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "nottingham-forest-2024-25-ryan-yates", playerName: "Ryan Yates", clubId: "nottingham-forest", seasonId: "2024-25", position: "CM", overall: 68, attributes: { pace: 61, shooting: 58, passing: 75, defending: 51, physical: 65 } },
   { id: "nottingham-forest-2024-25-willy-boly", playerName: "Willy Boly", clubId: "nottingham-forest", seasonId: "2024-25", position: "CB", overall: 66, attributes: { pace: 48, shooting: 23, passing: 54, defending: 67, physical: 77 } },
   { id: "nottingham-forest-2024-25-alex-moreno", playerName: "Alex Moreno", clubId: "nottingham-forest", seasonId: "2024-25", position: "LB", overall: 68, attributes: { pace: 79, shooting: 42, passing: 63, defending: 60, physical: 60 } },
+  { id: "nottingham-forest-2024-25-divock-origi", playerName: "Divock Origi", clubId: "nottingham-forest", seasonId: "2024-25", position: "ST", overall: 64, attributes: { pace: 56, shooting: 60, passing: 43, defending: 23, physical: 72 } },
 
   { id: "southampton-2024-25-aaron-ramsdale", playerName: "Aaron Ramsdale", clubId: "southampton", seasonId: "2024-25", position: "GK", overall: 76, attributes: { pace: 42, shooting: 52, passing: 60, defending: 77, physical: 74 } },
   { id: "southampton-2024-25-jan-bednarek", playerName: "Jan Bednarek", clubId: "southampton", seasonId: "2024-25", position: "CB", overall: 70, attributes: { pace: 52, shooting: 24, passing: 55, defending: 72, physical: 71 } },
@@ -3440,7 +3492,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "west-ham-2024-25-guido-rodriguez", playerName: "Guido Rodriguez", clubId: "west-ham", seasonId: "2024-25", position: "CDM", overall: 68, attributes: { pace: 64, shooting: 42, passing: 57, defending: 68, physical: 76 } },
   { id: "west-ham-2024-25-crysencio-summerville", playerName: "Crysencio Summerville", clubId: "west-ham", seasonId: "2024-25", position: "LW", overall: 70, attributes: { pace: 81, shooting: 58, passing: 61, defending: 30, physical: 48 } },
   { id: "west-ham-2024-25-jean-clair-todibo", playerName: "Jean-Clair Todibo", clubId: "west-ham", seasonId: "2024-25", position: "CB", overall: 74, attributes: { pace: 68, shooting: 25, passing: 65, defending: 76, physical: 83 } },
-  { id: "west-ham-2024-25-niclas-fullkrug", playerName: "Niclas Fullkrug", clubId: "west-ham", seasonId: "2024-25", position: "ST", overall: 72, attributes: { pace: 68, shooting: 70, passing: 50, defending: 22, physical: 74 } },
+  { id: "west-ham-2024-25-andy-irving", playerName: "Andy Irving", clubId: "west-ham", seasonId: "2024-25", position: "CM", overall: 58, attributes: { pace: 49, shooting: 47, passing: 62, defending: 42, physical: 48 } },
+  { id: "west-ham-2024-25-luis-guilherme", playerName: "Luis Guilherme", clubId: "west-ham", seasonId: "2024-25", position: "RW", overall: 62, attributes: { pace: 67, shooting: 48, passing: 49, defending: 24, physical: 39 } },
 
   { id: "wolves-2024-25-jose-sa", playerName: "José Sá", clubId: "wolves", seasonId: "2024-25", position: "GK", overall: 75, attributes: { pace: 40, shooting: 50, passing: 60, defending: 76, physical: 74 } },
   { id: "wolves-2024-25-rayan-ait-nouri", playerName: "Rayan Aït-Nouri", clubId: "wolves", seasonId: "2024-25", position: "LB", overall: 78, attributes: { pace: 86, shooting: 44, passing: 72, defending: 74, physical: 66 } },
@@ -3558,6 +3611,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "brighton-2025-26-ferdi-kadioglu", playerName: "Ferdi Kadioglu", clubId: "brighton", seasonId: "2025-26", position: "LB", overall: 72, attributes: { pace: 78, shooting: 41, passing: 63, defending: 64, physical: 65 } },
   { id: "brighton-2025-26-maxim-de-cuyper", playerName: "Maxim De Cuyper", clubId: "brighton", seasonId: "2025-26", position: "LB", overall: 68, attributes: { pace: 74, shooting: 41, passing: 65, defending: 67, physical: 64 } },
   { id: "brighton-2025-26-solly-march", playerName: "Solly March", clubId: "brighton", seasonId: "2025-26", position: "LM", overall: 70, attributes: { pace: 72, shooting: 60, passing: 70, defending: 37, physical: 50 } },
+  { id: "brighton-2025-26-charalampos-kostoulas", playerName: "Charalampos Kostoulas", clubId: "brighton", seasonId: "2025-26", position: "ST", overall: 64, attributes: { pace: 58, shooting: 64, passing: 39, defending: 20, physical: 69 } },
 
   { id: "burnley-2025-26-martin-dubravka", playerName: "Martin Dúbravka", clubId: "burnley", seasonId: "2025-26", position: "GK", overall: 73, attributes: { pace: 38, shooting: 48, passing: 54, defending: 74, physical: 74 } },
   { id: "burnley-2025-26-maxime-esteve", playerName: "Maxime Estève", clubId: "burnley", seasonId: "2025-26", position: "CB", overall: 72, attributes: { pace: 62, shooting: 26, passing: 58, defending: 74, physical: 75 } },
@@ -3575,6 +3629,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "burnley-2025-26-hjalmar-ekdal", playerName: "Hjalmar Ekdal", clubId: "burnley", seasonId: "2025-26", position: "CB", overall: 64, attributes: { pace: 48, shooting: 19, passing: 45, defending: 69, physical: 65 } },
   { id: "burnley-2025-26-connor-roberts", playerName: "Connor Roberts", clubId: "burnley", seasonId: "2025-26", position: "RB", overall: 66, attributes: { pace: 67, shooting: 41, passing: 56, defending: 62, physical: 57 } },
   { id: "burnley-2025-26-jaydon-banel", playerName: "Jaydon Banel", clubId: "burnley", seasonId: "2025-26", position: "LW", overall: 58, attributes: { pace: 67, shooting: 51, passing: 56, defending: 19, physical: 35 } },
+  { id: "burnley-2025-26-marcus-edwards", playerName: "Marcus Edwards", clubId: "burnley", seasonId: "2025-26", position: "LW", overall: 68, attributes: { pace: 83, shooting: 57, passing: 57, defending: 33, physical: 45 } },
+  { id: "burnley-2025-26-zeki-amdouni", playerName: "Zeki Amdouni", clubId: "burnley", seasonId: "2025-26", position: "ST", overall: 68, attributes: { pace: 58, shooting: 72, passing: 50, defending: 25, physical: 67 } },
 
   { id: "chelsea-2025-26-robert-sanchez", playerName: "Robert Sánchez", clubId: "chelsea", seasonId: "2025-26", position: "GK", overall: 79, attributes: { pace: 42, shooting: 54, passing: 64, defending: 80, physical: 78 } },
   { id: "chelsea-2025-26-levi-colwill", playerName: "Levi Colwill", clubId: "chelsea", seasonId: "2025-26", position: "CB", overall: 79, attributes: { pace: 74, shooting: 26, passing: 71, defending: 81, physical: 76 } },
@@ -3611,6 +3667,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "crystal-palace-2025-26-yeremy-pino", playerName: "Yeremy Pino", clubId: "crystal-palace", seasonId: "2025-26", position: "RW", overall: 70, attributes: { pace: 81, shooting: 68, passing: 60, defending: 30, physical: 53 } },
   { id: "crystal-palace-2025-26-justin-devenny", playerName: "Justin Devenny", clubId: "crystal-palace", seasonId: "2025-26", position: "CM", overall: 60, attributes: { pace: 46, shooting: 49, passing: 65, defending: 46, physical: 56 } },
   { id: "crystal-palace-2025-26-borna-sosa", playerName: "Borna Sosa", clubId: "crystal-palace", seasonId: "2025-26", position: "LB", overall: 66, attributes: { pace: 71, shooting: 30, passing: 55, defending: 64, physical: 52 } },
+  { id: "crystal-palace-2025-26-christantus-uche", playerName: "Christantus Uche", clubId: "crystal-palace", seasonId: "2025-26", position: "CM", overall: 64, attributes: { pace: 57, shooting: 57, passing: 62, defending: 50, physical: 54 } },
+  { id: "crystal-palace-2025-26-rob-holding", playerName: "Rob Holding", clubId: "crystal-palace", seasonId: "2025-26", position: "CB", overall: 68, attributes: { pace: 54, shooting: 20, passing: 56, defending: 74, physical: 78 } },
 
   { id: "everton-2025-26-jordan-pickford", playerName: "Jordan Pickford", clubId: "everton", seasonId: "2025-26", position: "GK", overall: 81, attributes: { pace: 44, shooting: 56, passing: 64, defending: 82, physical: 76 } },
   { id: "everton-2025-26-jarrad-branthwaite", playerName: "Jarrad Branthwaite", clubId: "everton", seasonId: "2025-26", position: "CB", overall: 80, attributes: { pace: 72, shooting: 26, passing: 66, defending: 81, physical: 82 } },
@@ -3686,6 +3744,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "liverpool-2025-26-federico-chiesa", playerName: "Federico Chiesa", clubId: "liverpool", seasonId: "2025-26", position: "RW", overall: 72, attributes: { pace: 77, shooting: 64, passing: 69, defending: 33, physical: 44 } },
   { id: "liverpool-2025-26-freddie-woodman", playerName: "Freddie Woodman", clubId: "liverpool", seasonId: "2025-26", position: "GK", overall: 62, attributes: { pace: 19, shooting: 35, passing: 51, defending: 61, physical: 59 } },
   { id: "liverpool-2025-26-andy-robertson", playerName: "Andy Robertson", clubId: "liverpool", seasonId: "2025-26", position: "LB", overall: 76, attributes: { pace: 88, shooting: 48, passing: 70, defending: 75, physical: 63 } },
+  { id: "liverpool-2025-26-conor-bradley", playerName: "Conor Bradley", clubId: "liverpool", seasonId: "2025-26", position: "RB", overall: 70, attributes: { pace: 77, shooting: 39, passing: 68, defending: 65, physical: 56 } },
 
   { id: "man-city-2025-26-gianluigi-donnarumma", playerName: "Gianluigi Donnarumma", clubId: "man-city", seasonId: "2025-26", position: "GK", overall: 87, attributes: { pace: 46, shooting: 60, passing: 70, defending: 88, physical: 84 }, note: "Summer signing after Champions League final heroics for PSG" },
   { id: "man-city-2025-26-ruben-dias", playerName: "Rúben Dias", clubId: "man-city", seasonId: "2025-26", position: "CB", overall: 85, attributes: { pace: 58, shooting: 30, passing: 74, defending: 87, physical: 82 } },
@@ -3703,6 +3762,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "man-city-2025-26-jeremy-doku", playerName: "Jeremy Doku", clubId: "man-city", seasonId: "2025-26", position: "RW", overall: 80, attributes: { pace: 85, shooting: 75, passing: 68, defending: 47, physical: 53 } },
   { id: "man-city-2025-26-marcus-bettinelli", playerName: "Marcus Bettinelli", clubId: "man-city", seasonId: "2025-26", position: "GK", overall: 58, attributes: { pace: 21, shooting: 34, passing: 48, defending: 61, physical: 57 } },
   { id: "man-city-2025-26-ederson", playerName: "Ederson", clubId: "man-city", seasonId: "2025-26", position: "GK", overall: 84, attributes: { pace: 45, shooting: 60, passing: 71, defending: 91, physical: 91 } },
+  { id: "man-city-2025-26-nico-o-reilly", playerName: "Nico O'Reilly", clubId: "man-city", seasonId: "2025-26", position: "LB", overall: 64, attributes: { pace: 73, shooting: 32, passing: 62, defending: 58, physical: 53 } },
+  { id: "man-city-2025-26-savinho", playerName: "Savinho", clubId: "man-city", seasonId: "2025-26", position: "RW", overall: 76, attributes: { pace: 87, shooting: 72, passing: 69, defending: 32, physical: 50 } },
 
   { id: "man-utd-2025-26-andre-onana", playerName: "André Onana", clubId: "man-utd", seasonId: "2025-26", position: "GK", overall: 75, attributes: { pace: 42, shooting: 60, passing: 75, defending: 75, physical: 73 } },
   { id: "man-utd-2025-26-matthijs-de-ligt", playerName: "Matthijs de Ligt", clubId: "man-utd", seasonId: "2025-26", position: "CB", overall: 79, attributes: { pace: 62, shooting: 30, passing: 68, defending: 81, physical: 80 } },
@@ -3721,6 +3782,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "man-utd-2025-26-mason-mount", playerName: "Mason Mount", clubId: "man-utd", seasonId: "2025-26", position: "CAM", overall: 70, attributes: { pace: 68, shooting: 67, passing: 77, defending: 32, physical: 45 } },
   { id: "man-utd-2025-26-tom-heaton", playerName: "Tom Heaton", clubId: "man-utd", seasonId: "2025-26", position: "GK", overall: 58, attributes: { pace: 25, shooting: 36, passing: 49, defending: 58, physical: 60 } },
   { id: "man-utd-2025-26-toby-collyer", playerName: "Toby Collyer", clubId: "man-utd", seasonId: "2025-26", position: "CM", overall: 58, attributes: { pace: 54, shooting: 47, passing: 62, defending: 41, physical: 46 } },
+  { id: "man-utd-2025-26-ayden-heaven", playerName: "Ayden Heaven", clubId: "man-utd", seasonId: "2025-26", position: "CB", overall: 60, attributes: { pace: 48, shooting: 20, passing: 47, defending: 67, physical: 59 } },
 
   { id: "newcastle-2025-26-nick-pope", playerName: "Nick Pope", clubId: "newcastle", seasonId: "2025-26", position: "GK", overall: 79, attributes: { pace: 38, shooting: 50, passing: 58, defending: 80, physical: 78 } },
   { id: "newcastle-2025-26-fabian-schar", playerName: "Fabian Schär", clubId: "newcastle", seasonId: "2025-26", position: "CB", overall: 76, attributes: { pace: 50, shooting: 34, passing: 68, defending: 78, physical: 78 } },
@@ -3739,6 +3801,7 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "newcastle-2025-26-emil-krafth", playerName: "Emil Krafth", clubId: "newcastle", seasonId: "2025-26", position: "RB", overall: 64, attributes: { pace: 74, shooting: 38, passing: 50, defending: 56, physical: 58 } },
   { id: "newcastle-2025-26-jacob-murphy", playerName: "Jacob Murphy", clubId: "newcastle", seasonId: "2025-26", position: "RW", overall: 70, attributes: { pace: 86, shooting: 64, passing: 57, defending: 29, physical: 42 } },
   { id: "newcastle-2025-26-william-osula", playerName: "William Osula", clubId: "newcastle", seasonId: "2025-26", position: "ST", overall: 64, attributes: { pace: 59, shooting: 62, passing: 48, defending: 15, physical: 70 } },
+  { id: "newcastle-2025-26-yasin-ozcan", playerName: "Yasin Ozcan", clubId: "newcastle", seasonId: "2025-26", position: "CB", overall: 56, attributes: { pace: 44, shooting: 15, passing: 40, defending: 54, physical: 65 } },
 
   { id: "nottingham-forest-2025-26-matz-sels", playerName: "Matz Sels", clubId: "nottingham-forest", seasonId: "2025-26", position: "GK", overall: 80, attributes: { pace: 42, shooting: 54, passing: 62, defending: 81, physical: 77 } },
   { id: "nottingham-forest-2025-26-murillo", playerName: "Murillo", clubId: "nottingham-forest", seasonId: "2025-26", position: "CB", overall: 80, attributes: { pace: 78, shooting: 30, passing: 68, defending: 82, physical: 80 } },
@@ -3813,6 +3876,8 @@ export const PLAYERS_2010S_LATE: PlayerSeason[] = [
   { id: "west-ham-2025-26-freddie-potts", playerName: "Freddie Potts", clubId: "west-ham", seasonId: "2025-26", position: "CM", overall: 64, attributes: { pace: 62, shooting: 54, passing: 60, defending: 53, physical: 60 } },
   { id: "west-ham-2025-26-callum-wilson", playerName: "Callum Wilson", clubId: "west-ham", seasonId: "2025-26", position: "ST", overall: 70, attributes: { pace: 65, shooting: 65, passing: 50, defending: 24, physical: 78 } },
   { id: "west-ham-2025-26-luis-guilherme", playerName: "Luis Guilherme", clubId: "west-ham", seasonId: "2025-26", position: "RW", overall: 66, attributes: { pace: 71, shooting: 52, passing: 53, defending: 28, physical: 43 } },
+  { id: "west-ham-2025-26-soungoutou-magassa", playerName: "Soungoutou Magassa", clubId: "west-ham", seasonId: "2025-26", position: "CDM", overall: 60, attributes: { pace: 47, shooting: 44, passing: 51, defending: 65, physical: 63 } },
+  { id: "west-ham-2025-26-ollie-scarles", playerName: "Ollie Scarles", clubId: "west-ham", seasonId: "2025-26", position: "LB", overall: 58, attributes: { pace: 69, shooting: 30, passing: 48, defending: 61, physical: 56 } },
 
   { id: "wolves-2025-26-jose-sa", playerName: "José Sá", clubId: "wolves", seasonId: "2025-26", position: "GK", overall: 75, attributes: { pace: 40, shooting: 50, passing: 60, defending: 76, physical: 74 } },
   { id: "wolves-2025-26-yerson-mosquera", playerName: "Yerson Mosquera", clubId: "wolves", seasonId: "2025-26", position: "CB", overall: 72, attributes: { pace: 66, shooting: 26, passing: 58, defending: 74, physical: 76 } },
