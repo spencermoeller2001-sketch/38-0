@@ -1457,4 +1457,216 @@ export const PLAYERS_2000S: PlayerSeason[] = [
   { id: "wigan-2006-07-jimmy-bullard", playerName: "Jimmy Bullard", clubId: "wigan", seasonId: "2006-07", position: "CM", overall: 76, attributes: { pace: 63, shooting: 66, passing: 78, defending: 55, physical: 62 }, note: "Superb form before January move to Fulham" },
   { id: "wigan-2006-07-henri-camara", playerName: "Henri Camara", clubId: "wigan", seasonId: "2006-07", position: "ST", overall: 73, attributes: { pace: 88, shooting: 71, passing: 50, defending: 25, physical: 62 } },
   { id: "wigan-2006-07-emile-heskey", playerName: "Emile Heskey", clubId: "wigan", seasonId: "2006-07", position: "ST", overall: 74, attributes: { pace: 71, shooting: 71, passing: 53, defending: 30, physical: 82 } },
+
+  // ===================== 2007-08 =====================
+  // Arsenal (3rd, exciting young title challengers)
+  { id: "arsenal-2007-08-manuel-almunia", playerName: "Manuel Almunia", clubId: "arsenal", seasonId: "2007-08", position: "GK", overall: 78, attributes: { pace: 40, shooting: 34, passing: 56, defending: 80, physical: 76 } },
+  { id: "arsenal-2007-08-william-gallas", playerName: "William Gallas", clubId: "arsenal", seasonId: "2007-08", position: "CB", overall: 84, attributes: { pace: 72, shooting: 36, passing: 68, defending: 84, physical: 77 }, note: "Captain" },
+  { id: "arsenal-2007-08-kolo-toure", playerName: "Kolo Toure", clubId: "arsenal", seasonId: "2007-08", position: "CB", overall: 82, attributes: { pace: 79, shooting: 30, passing: 66, defending: 82, physical: 80 } },
+  { id: "arsenal-2007-08-gael-clichy", playerName: "Gael Clichy", clubId: "arsenal", seasonId: "2007-08", position: "LB", overall: 79, attributes: { pace: 85, shooting: 42, passing: 70, defending: 78, physical: 71 } },
+  { id: "arsenal-2007-08-bacary-sagna", playerName: "Bacary Sagna", clubId: "arsenal", seasonId: "2007-08", position: "RB", overall: 80, attributes: { pace: 80, shooting: 38, passing: 68, defending: 80, physical: 74 }, note: "Breakout debut season" },
+  { id: "arsenal-2007-08-mathieu-flamini", playerName: "Mathieu Flamini", clubId: "arsenal", seasonId: "2007-08", position: "CDM", overall: 78, attributes: { pace: 72, shooting: 56, passing: 74, defending: 78, physical: 76 } },
+  { id: "arsenal-2007-08-cesc-fabregas", playerName: "Cesc Fabregas", clubId: "arsenal", seasonId: "2007-08", position: "CM", overall: 87, attributes: { pace: 70, shooting: 75, passing: 90, defending: 62, physical: 66 }, note: "One of Europe's best young midfielders" },
+  { id: "arsenal-2007-08-alexander-hleb", playerName: "Alexander Hleb", clubId: "arsenal", seasonId: "2007-08", position: "CAM", overall: 78, attributes: { pace: 76, shooting: 66, passing: 82, defending: 40, physical: 56 } },
+  { id: "arsenal-2007-08-emmanuel-adebayor", playerName: "Emmanuel Adebayor", clubId: "arsenal", seasonId: "2007-08", position: "ST", overall: 85, attributes: { pace: 82, shooting: 87, passing: 60, defending: 28, physical: 80 }, note: "Career-best season, 30 goals in all competitions" },
+  { id: "arsenal-2007-08-robin-van-persie", playerName: "Robin van Persie", clubId: "arsenal", seasonId: "2007-08", position: "ST", overall: 80, attributes: { pace: 76, shooting: 82, passing: 78, defending: 30, physical: 70 } },
+
+  // Aston Villa
+  { id: "aston-villa-2007-08-thomas-sorensen", playerName: "Thomas Sorensen", clubId: "aston-villa", seasonId: "2007-08", position: "GK", overall: 78, attributes: { pace: 40, shooting: 36, passing: 56, defending: 80, physical: 76 } },
+  { id: "aston-villa-2007-08-martin-laursen", playerName: "Martin Laursen", clubId: "aston-villa", seasonId: "2007-08", position: "CB", overall: 78, attributes: { pace: 56, shooting: 26, passing: 60, defending: 81, physical: 78 } },
+  { id: "aston-villa-2007-08-zat-knight", playerName: "Zat Knight", clubId: "aston-villa", seasonId: "2007-08", position: "CB", overall: 74, attributes: { pace: 54, shooting: 25, passing: 55, defending: 76, physical: 80 } },
+  { id: "aston-villa-2007-08-wilfred-bouma", playerName: "Wilfred Bouma", clubId: "aston-villa", seasonId: "2007-08", position: "CB", overall: 72, attributes: { pace: 56, shooting: 24, passing: 56, defending: 74, physical: 73 } },
+  { id: "aston-villa-2007-08-gareth-barry", playerName: "Gareth Barry", clubId: "aston-villa", seasonId: "2007-08", position: "CM", overall: 79, attributes: { pace: 58, shooting: 64, passing: 80, defending: 74, physical: 74 }, note: "Captain" },
+  { id: "aston-villa-2007-08-ashley-young", playerName: "Ashley Young", clubId: "aston-villa", seasonId: "2007-08", position: "RW", overall: 82, attributes: { pace: 86, shooting: 77, passing: 81, defending: 34, physical: 61 }, note: "PFA Young Player nominee" },
+  { id: "aston-villa-2007-08-gabriel-agbonlahor", playerName: "Gabriel Agbonlahor", clubId: "aston-villa", seasonId: "2007-08", position: "ST", overall: 79, attributes: { pace: 93, shooting: 77, passing: 55, defending: 25, physical: 70 } },
+  { id: "aston-villa-2007-08-john-carew", playerName: "John Carew", clubId: "aston-villa", seasonId: "2007-08", position: "ST", overall: 77, attributes: { pace: 62, shooting: 78, passing: 55, defending: 26, physical: 88 } },
+
+  // Birmingham City (relegated, 19th)
+  { id: "birmingham-2007-08-maik-taylor", playerName: "Maik Taylor", clubId: "birmingham", seasonId: "2007-08", position: "GK", overall: 74, attributes: { pace: 38, shooting: 33, passing: 53, defending: 76, physical: 74 } },
+  { id: "birmingham-2007-08-radhi-jaidi", playerName: "Radhi Jaidi", clubId: "birmingham", seasonId: "2007-08", position: "CB", overall: 72, attributes: { pace: 48, shooting: 24, passing: 50, defending: 75, physical: 78 } },
+  { id: "birmingham-2007-08-liam-ridgewell", playerName: "Liam Ridgewell", clubId: "birmingham", seasonId: "2007-08", position: "CB", overall: 71, attributes: { pace: 62, shooting: 25, passing: 57, defending: 71, physical: 70 } },
+  { id: "birmingham-2007-08-stephen-kelly", playerName: "Stephen Kelly", clubId: "birmingham", seasonId: "2007-08", position: "RB", overall: 71, attributes: { pace: 68, shooting: 30, passing: 56, defending: 70, physical: 64 } },
+  { id: "birmingham-2007-08-fabrice-muamba", playerName: "Fabrice Muamba", clubId: "birmingham", seasonId: "2007-08", position: "CM", overall: 71, attributes: { pace: 68, shooting: 46, passing: 62, defending: 66, physical: 74 }, note: "Young breakout midfielder" },
+  { id: "birmingham-2007-08-cameron-jerome", playerName: "Cameron Jerome", clubId: "birmingham", seasonId: "2007-08", position: "ST", overall: 72, attributes: { pace: 82, shooting: 70, passing: 48, defending: 25, physical: 74 } },
+  { id: "birmingham-2007-08-garry-oconnor", playerName: "Garry O'Connor", clubId: "birmingham", seasonId: "2007-08", position: "ST", overall: 70, attributes: { pace: 68, shooting: 70, passing: 46, defending: 25, physical: 68 } },
+
+  // Blackburn Rovers
+  { id: "blackburn-2007-08-brad-friedel", playerName: "Brad Friedel", clubId: "blackburn", seasonId: "2007-08", position: "GK", overall: 80, attributes: { pace: 38, shooting: 34, passing: 54, defending: 82, physical: 76 } },
+  { id: "blackburn-2007-08-ryan-nelsen", playerName: "Ryan Nelsen", clubId: "blackburn", seasonId: "2007-08", position: "CB", overall: 77, attributes: { pace: 52, shooting: 25, passing: 58, defending: 79, physical: 76 }, note: "Captain" },
+  { id: "blackburn-2007-08-christopher-samba", playerName: "Christopher Samba", clubId: "blackburn", seasonId: "2007-08", position: "CB", overall: 78, attributes: { pace: 58, shooting: 28, passing: 52, defending: 81, physical: 91 } },
+  { id: "blackburn-2007-08-stephen-warnock", playerName: "Stephen Warnock", clubId: "blackburn", seasonId: "2007-08", position: "LB", overall: 73, attributes: { pace: 72, shooting: 38, passing: 64, defending: 71, physical: 65 } },
+  { id: "blackburn-2007-08-david-bentley", playerName: "David Bentley", clubId: "blackburn", seasonId: "2007-08", position: "RM", overall: 78, attributes: { pace: 76, shooting: 72, passing: 80, defending: 36, physical: 60 } },
+  { id: "blackburn-2007-08-morten-gamst-pedersen", playerName: "Morten Gamst Pedersen", clubId: "blackburn", seasonId: "2007-08", position: "LW", overall: 76, attributes: { pace: 74, shooting: 68, passing: 76, defending: 36, physical: 63 } },
+  { id: "blackburn-2007-08-roque-santa-cruz", playerName: "Roque Santa Cruz", clubId: "blackburn", seasonId: "2007-08", position: "ST", overall: 81, attributes: { pace: 72, shooting: 82, passing: 60, defending: 28, physical: 78 }, note: "19-goal breakout season" },
+  { id: "blackburn-2007-08-benni-mccarthy", playerName: "Benni McCarthy", clubId: "blackburn", seasonId: "2007-08", position: "ST", overall: 74, attributes: { pace: 70, shooting: 75, passing: 53, defending: 25, physical: 68 } },
+
+  // Bolton Wanderers
+  { id: "bolton-2007-08-jussi-jaaskelainen", playerName: "Jussi Jaaskelainen", clubId: "bolton", seasonId: "2007-08", position: "GK", overall: 79, attributes: { pace: 38, shooting: 33, passing: 54, defending: 81, physical: 76 } },
+  { id: "bolton-2007-08-gary-cahill", playerName: "Gary Cahill", clubId: "bolton", seasonId: "2007-08", position: "CB", overall: 73, attributes: { pace: 64, shooting: 30, passing: 58, defending: 75, physical: 76 }, note: "Emerging young centre-back" },
+  { id: "bolton-2007-08-abdoulaye-meite", playerName: "Abdoulaye Meite", clubId: "bolton", seasonId: "2007-08", position: "CB", overall: 73, attributes: { pace: 58, shooting: 24, passing: 50, defending: 75, physical: 79 } },
+  { id: "bolton-2007-08-ricardo-gardner", playerName: "Ricardo Gardner", clubId: "bolton", seasonId: "2007-08", position: "LB", overall: 70, attributes: { pace: 71, shooting: 36, passing: 58, defending: 67, physical: 62 } },
+  { id: "bolton-2007-08-kevin-nolan", playerName: "Kevin Nolan", clubId: "bolton", seasonId: "2007-08", position: "CM", overall: 76, attributes: { pace: 60, shooting: 66, passing: 69, defending: 58, physical: 75 } },
+  { id: "bolton-2007-08-gavin-mccann", playerName: "Gavin McCann", clubId: "bolton", seasonId: "2007-08", position: "CM", overall: 70, attributes: { pace: 52, shooting: 46, passing: 60, defending: 62, physical: 64 } },
+  { id: "bolton-2007-08-nicolas-anelka", playerName: "Nicolas Anelka", clubId: "bolton", seasonId: "2007-08", position: "ST", overall: 81, attributes: { pace: 85, shooting: 81, passing: 61, defending: 27, physical: 69 }, note: "Sold to Chelsea in January" },
+  { id: "bolton-2007-08-el-hadji-diouf", playerName: "El Hadji Diouf", clubId: "bolton", seasonId: "2007-08", position: "ST", overall: 70, attributes: { pace: 78, shooting: 60, passing: 60, defending: 30, physical: 60 } },
+
+  // Chelsea (Champions League runners-up)
+  { id: "chelsea-2007-08-petr-cech", playerName: "Petr Cech", clubId: "chelsea", seasonId: "2007-08", position: "GK", overall: 89, attributes: { pace: 44, shooting: 40, passing: 66, defending: 90, physical: 83 } },
+  { id: "chelsea-2007-08-john-terry", playerName: "John Terry", clubId: "chelsea", seasonId: "2007-08", position: "CB", overall: 90, attributes: { pace: 60, shooting: 42, passing: 70, defending: 91, physical: 89 }, note: "Captain, missed decisive penalty in Champions League final" },
+  { id: "chelsea-2007-08-ricardo-carvalho", playerName: "Ricardo Carvalho", clubId: "chelsea", seasonId: "2007-08", position: "CB", overall: 84, attributes: { pace: 64, shooting: 30, passing: 70, defending: 85, physical: 80 } },
+  { id: "chelsea-2007-08-ashley-cole", playerName: "Ashley Cole", clubId: "chelsea", seasonId: "2007-08", position: "LB", overall: 85, attributes: { pace: 86, shooting: 48, passing: 74, defending: 83, physical: 75 } },
+  { id: "chelsea-2007-08-michael-essien", playerName: "Michael Essien", clubId: "chelsea", seasonId: "2007-08", position: "CDM", overall: 85, attributes: { pace: 74, shooting: 66, passing: 76, defending: 84, physical: 87 } },
+  { id: "chelsea-2007-08-claude-makelele", playerName: "Claude Makelele", clubId: "chelsea", seasonId: "2007-08", position: "CDM", overall: 82, attributes: { pace: 48, shooting: 38, passing: 73, defending: 85, physical: 74 } },
+  { id: "chelsea-2007-08-frank-lampard", playerName: "Frank Lampard", clubId: "chelsea", seasonId: "2007-08", position: "CM", overall: 89, attributes: { pace: 64, shooting: 85, passing: 84, defending: 65, physical: 78 } },
+  { id: "chelsea-2007-08-michael-ballack", playerName: "Michael Ballack", clubId: "chelsea", seasonId: "2007-08", position: "CM", overall: 82, attributes: { pace: 60, shooting: 78, passing: 79, defending: 64, physical: 80 } },
+  { id: "chelsea-2007-08-florent-malouda", playerName: "Florent Malouda", clubId: "chelsea", seasonId: "2007-08", position: "LW", overall: 76, attributes: { pace: 80, shooting: 68, passing: 74, defending: 34, physical: 62 } },
+  { id: "chelsea-2007-08-didier-drogba", playerName: "Didier Drogba", clubId: "chelsea", seasonId: "2007-08", position: "ST", overall: 88, attributes: { pace: 77, shooting: 87, passing: 66, defending: 32, physical: 89 }, note: "Champions League final goal" },
+
+  // Derby County (relegated, 20th, historically poor season)
+  { id: "derby-2007-08-stephen-bywater", playerName: "Stephen Bywater", clubId: "derby", seasonId: "2007-08", position: "GK", overall: 65, attributes: { pace: 34, shooting: 28, passing: 46, defending: 68, physical: 68 } },
+  { id: "derby-2007-08-chris-riggott", playerName: "Chris Riggott", clubId: "derby", seasonId: "2007-08", position: "CB", overall: 65, attributes: { pace: 48, shooting: 22, passing: 48, defending: 68, physical: 68 } },
+  { id: "derby-2007-08-michael-johnson", playerName: "Michael Johnson", clubId: "derby", seasonId: "2007-08", position: "CB", overall: 62, attributes: { pace: 44, shooting: 20, passing: 44, defending: 66, physical: 66 } },
+  { id: "derby-2007-08-claude-davis", playerName: "Claude Davis", clubId: "derby", seasonId: "2007-08", position: "CB", overall: 63, attributes: { pace: 50, shooting: 20, passing: 44, defending: 66, physical: 70 } },
+  { id: "derby-2007-08-giles-barnes", playerName: "Giles Barnes", clubId: "derby", seasonId: "2007-08", position: "CM", overall: 65, attributes: { pace: 68, shooting: 52, passing: 58, defending: 40, physical: 58 } },
+  { id: "derby-2007-08-eddie-lewis", playerName: "Eddie Lewis", clubId: "derby", seasonId: "2007-08", position: "LM", overall: 62, attributes: { pace: 62, shooting: 48, passing: 58, defending: 36, physical: 54 } },
+  { id: "derby-2007-08-kenny-miller", playerName: "Kenny Miller", clubId: "derby", seasonId: "2007-08", position: "ST", overall: 68, attributes: { pace: 76, shooting: 68, passing: 48, defending: 25, physical: 58 } },
+
+  // Everton (UEFA Cup semi-final)
+  { id: "everton-2007-08-tim-howard", playerName: "Tim Howard", clubId: "everton", seasonId: "2007-08", position: "GK", overall: 82, attributes: { pace: 44, shooting: 40, passing: 60, defending: 84, physical: 79 } },
+  { id: "everton-2007-08-joleon-lescott", playerName: "Joleon Lescott", clubId: "everton", seasonId: "2007-08", position: "CB", overall: 81, attributes: { pace: 68, shooting: 36, passing: 64, defending: 82, physical: 78 } },
+  { id: "everton-2007-08-joseph-yobo", playerName: "Joseph Yobo", clubId: "everton", seasonId: "2007-08", position: "CB", overall: 76, attributes: { pace: 66, shooting: 26, passing: 58, defending: 78, physical: 77 } },
+  { id: "everton-2007-08-leighton-baines", playerName: "Leighton Baines", clubId: "everton", seasonId: "2007-08", position: "LB", overall: 78, attributes: { pace: 78, shooting: 58, passing: 78, defending: 75, physical: 68 }, note: "Summer signing from Wigan" },
+  { id: "everton-2007-08-tony-hibbert", playerName: "Tony Hibbert", clubId: "everton", seasonId: "2007-08", position: "RB", overall: 73, attributes: { pace: 62, shooting: 22, passing: 53, defending: 76, physical: 68 } },
+  { id: "everton-2007-08-mikel-arteta", playerName: "Mikel Arteta", clubId: "everton", seasonId: "2007-08", position: "CAM", overall: 82, attributes: { pace: 60, shooting: 73, passing: 86, defending: 46, physical: 60 } },
+  { id: "everton-2007-08-tim-cahill", playerName: "Tim Cahill", clubId: "everton", seasonId: "2007-08", position: "CM", overall: 80, attributes: { pace: 64, shooting: 78, passing: 66, defending: 60, physical: 78 } },
+  { id: "everton-2007-08-leon-osman", playerName: "Leon Osman", clubId: "everton", seasonId: "2007-08", position: "CM", overall: 76, attributes: { pace: 62, shooting: 65, passing: 76, defending: 52, physical: 58 } },
+  { id: "everton-2007-08-yakubu", playerName: "Yakubu", clubId: "everton", seasonId: "2007-08", position: "ST", overall: 81, attributes: { pace: 74, shooting: 82, passing: 55, defending: 25, physical: 80 }, note: "Top scorer, prolific summer signing" },
+
+  // Fulham (survived on the final day, "Great Escape II")
+  { id: "fulham-2007-08-antti-niemi", playerName: "Antti Niemi", clubId: "fulham", seasonId: "2007-08", position: "GK", overall: 73, attributes: { pace: 38, shooting: 32, passing: 53, defending: 75, physical: 73 } },
+  { id: "fulham-2007-08-aaron-hughes", playerName: "Aaron Hughes", clubId: "fulham", seasonId: "2007-08", position: "CB", overall: 74, attributes: { pace: 58, shooting: 24, passing: 60, defending: 76, physical: 71 } },
+  { id: "fulham-2007-08-brede-hangeland", playerName: "Brede Hangeland", clubId: "fulham", seasonId: "2007-08", position: "CB", overall: 76, attributes: { pace: 56, shooting: 26, passing: 60, defending: 79, physical: 82 }, note: "January signing, instant leader" },
+  { id: "fulham-2007-08-paul-konchesky", playerName: "Paul Konchesky", clubId: "fulham", seasonId: "2007-08", position: "LB", overall: 71, attributes: { pace: 68, shooting: 38, passing: 62, defending: 68, physical: 63 } },
+  { id: "fulham-2007-08-moritz-volz", playerName: "Moritz Volz", clubId: "fulham", seasonId: "2007-08", position: "RB", overall: 68, attributes: { pace: 62, shooting: 28, passing: 56, defending: 66, physical: 60 } },
+  { id: "fulham-2007-08-danny-murphy", playerName: "Danny Murphy", clubId: "fulham", seasonId: "2007-08", position: "CM", overall: 75, attributes: { pace: 54, shooting: 64, passing: 77, defending: 53, physical: 60 } },
+  { id: "fulham-2007-08-jimmy-bullard", playerName: "Jimmy Bullard", clubId: "fulham", seasonId: "2007-08", position: "CM", overall: 76, attributes: { pace: 60, shooting: 65, passing: 78, defending: 55, physical: 62 } },
+  { id: "fulham-2007-08-clint-dempsey", playerName: "Clint Dempsey", clubId: "fulham", seasonId: "2007-08", position: "RW", overall: 74, attributes: { pace: 68, shooting: 72, passing: 68, defending: 34, physical: 66 }, note: "Breakout American talent" },
+  { id: "fulham-2007-08-brian-mcbride", playerName: "Brian McBride", clubId: "fulham", seasonId: "2007-08", position: "ST", overall: 71, attributes: { pace: 50, shooting: 71, passing: 50, defending: 28, physical: 77 } },
+
+  // Liverpool
+  { id: "liverpool-2007-08-pepe-reina", playerName: "Pepe Reina", clubId: "liverpool", seasonId: "2007-08", position: "GK", overall: 88, attributes: { pace: 44, shooting: 42, passing: 65, defending: 90, physical: 80 } },
+  { id: "liverpool-2007-08-jamie-carragher", playerName: "Jamie Carragher", clubId: "liverpool", seasonId: "2007-08", position: "CB", overall: 85, attributes: { pace: 54, shooting: 26, passing: 64, defending: 87, physical: 81 } },
+  { id: "liverpool-2007-08-sami-hyypia", playerName: "Sami Hyypia", clubId: "liverpool", seasonId: "2007-08", position: "CB", overall: 78, attributes: { pace: 44, shooting: 24, passing: 60, defending: 80, physical: 80 } },
+  { id: "liverpool-2007-08-fabio-aurelio", playerName: "Fabio Aurelio", clubId: "liverpool", seasonId: "2007-08", position: "LB", overall: 74, attributes: { pace: 68, shooting: 48, passing: 76, defending: 68, physical: 62 } },
+  { id: "liverpool-2007-08-alvaro-arbeloa", playerName: "Alvaro Arbeloa", clubId: "liverpool", seasonId: "2007-08", position: "RB", overall: 76, attributes: { pace: 72, shooting: 32, passing: 66, defending: 76, physical: 68 } },
+  { id: "liverpool-2007-08-xabi-alonso", playerName: "Xabi Alonso", clubId: "liverpool", seasonId: "2007-08", position: "CDM", overall: 87, attributes: { pace: 54, shooting: 72, passing: 90, defending: 78, physical: 71 } },
+  { id: "liverpool-2007-08-javier-mascherano", playerName: "Javier Mascherano", clubId: "liverpool", seasonId: "2007-08", position: "CDM", overall: 82, attributes: { pace: 66, shooting: 44, passing: 72, defending: 84, physical: 78 } },
+  { id: "liverpool-2007-08-steven-gerrard", playerName: "Steven Gerrard", clubId: "liverpool", seasonId: "2007-08", position: "CM", overall: 91, attributes: { pace: 76, shooting: 85, passing: 86, defending: 71, physical: 79 } },
+  { id: "liverpool-2007-08-fernando-torres", playerName: "Fernando Torres", clubId: "liverpool", seasonId: "2007-08", position: "ST", overall: 93, attributes: { pace: 94, shooting: 92, passing: 68, defending: 25, physical: 74 }, note: "Sensational debut season, 24 Premier League goals" },
+  { id: "liverpool-2007-08-dirk-kuyt", playerName: "Dirk Kuyt", clubId: "liverpool", seasonId: "2007-08", position: "ST", overall: 77, attributes: { pace: 70, shooting: 75, passing: 62, defending: 42, physical: 76 } },
+
+  // Manchester City
+  { id: "man-city-2007-08-andreas-isaksson", playerName: "Andreas Isaksson", clubId: "man-city", seasonId: "2007-08", position: "GK", overall: 73, attributes: { pace: 38, shooting: 32, passing: 52, defending: 75, physical: 74 } },
+  { id: "man-city-2007-08-richard-dunne", playerName: "Richard Dunne", clubId: "man-city", seasonId: "2007-08", position: "CB", overall: 78, attributes: { pace: 48, shooting: 25, passing: 56, defending: 81, physical: 82 } },
+  { id: "man-city-2007-08-vedran-corluka", playerName: "Vedran Corluka", clubId: "man-city", seasonId: "2007-08", position: "CB", overall: 74, attributes: { pace: 62, shooting: 25, passing: 58, defending: 76, physical: 74 } },
+  { id: "man-city-2007-08-micah-richards", playerName: "Micah Richards", clubId: "man-city", seasonId: "2007-08", position: "RB", overall: 77, attributes: { pace: 84, shooting: 40, passing: 62, defending: 76, physical: 82 }, note: "Breakout young full-back" },
+  { id: "man-city-2007-08-stephen-ireland", playerName: "Stephen Ireland", clubId: "man-city", seasonId: "2007-08", position: "CM", overall: 77, attributes: { pace: 70, shooting: 66, passing: 78, defending: 55, physical: 62 }, note: "Breakout playmaking season" },
+  { id: "man-city-2007-08-elano", playerName: "Elano", clubId: "man-city", seasonId: "2007-08", position: "CAM", overall: 78, attributes: { pace: 68, shooting: 74, passing: 82, defending: 38, physical: 58 } },
+  { id: "man-city-2007-08-martin-petrov", playerName: "Martin Petrov", clubId: "man-city", seasonId: "2007-08", position: "LW", overall: 76, attributes: { pace: 82, shooting: 68, passing: 72, defending: 34, physical: 62 } },
+  { id: "man-city-2007-08-rolando-bianchi", playerName: "Rolando Bianchi", clubId: "man-city", seasonId: "2007-08", position: "ST", overall: 70, attributes: { pace: 64, shooting: 71, passing: 48, defending: 25, physical: 68 } },
+
+  // Manchester United (Champions and Champions League winners)
+  { id: "man-utd-2007-08-edwin-van-der-sar", playerName: "Edwin van der Sar", clubId: "man-utd", seasonId: "2007-08", position: "GK", overall: 89, attributes: { pace: 42, shooting: 43, passing: 68, defending: 91, physical: 81 }, note: "Champions League final penalty save" },
+  { id: "man-utd-2007-08-rio-ferdinand", playerName: "Rio Ferdinand", clubId: "man-utd", seasonId: "2007-08", position: "CB", overall: 87, attributes: { pace: 73, shooting: 32, passing: 79, defending: 88, physical: 82 } },
+  { id: "man-utd-2007-08-nemanja-vidic", playerName: "Nemanja Vidic", clubId: "man-utd", seasonId: "2007-08", position: "CB", overall: 87, attributes: { pace: 68, shooting: 32, passing: 64, defending: 90, physical: 90 } },
+  { id: "man-utd-2007-08-patrice-evra", playerName: "Patrice Evra", clubId: "man-utd", seasonId: "2007-08", position: "LB", overall: 82, attributes: { pace: 86, shooting: 46, passing: 72, defending: 80, physical: 75 } },
+  { id: "man-utd-2007-08-wes-brown", playerName: "Wes Brown", clubId: "man-utd", seasonId: "2007-08", position: "CB", overall: 75, attributes: { pace: 74, shooting: 26, passing: 62, defending: 76, physical: 76 } },
+  { id: "man-utd-2007-08-michael-carrick", playerName: "Michael Carrick", clubId: "man-utd", seasonId: "2007-08", position: "CM", overall: 83, attributes: { pace: 60, shooting: 64, passing: 85, defending: 68, physical: 70 } },
+  { id: "man-utd-2007-08-paul-scholes", playerName: "Paul Scholes", clubId: "man-utd", seasonId: "2007-08", position: "CM", overall: 82, attributes: { pace: 52, shooting: 77, passing: 85, defending: 58, physical: 67 } },
+  { id: "man-utd-2007-08-cristiano-ronaldo", playerName: "Cristiano Ronaldo", clubId: "man-utd", seasonId: "2007-08", position: "RW", overall: 97, attributes: { pace: 96, shooting: 94, passing: 85, defending: 32, physical: 76 }, note: "Ballon d'Or, PFA and FWA Player of the Year, Champions League winner, Golden Boot" },
+  { id: "man-utd-2007-08-wayne-rooney", playerName: "Wayne Rooney", clubId: "man-utd", seasonId: "2007-08", position: "ST", overall: 88, attributes: { pace: 84, shooting: 86, passing: 78, defending: 36, physical: 81 } },
+  { id: "man-utd-2007-08-carlos-tevez", playerName: "Carlos Tevez", clubId: "man-utd", seasonId: "2007-08", position: "ST", overall: 82, attributes: { pace: 82, shooting: 80, passing: 68, defending: 40, physical: 75 } },
+
+  // Middlesbrough
+  { id: "middlesbrough-2007-08-ross-turnbull", playerName: "Ross Turnbull", clubId: "middlesbrough", seasonId: "2007-08", position: "GK", overall: 73, attributes: { pace: 38, shooting: 32, passing: 52, defending: 75, physical: 74 } },
+  { id: "middlesbrough-2007-08-david-wheater", playerName: "David Wheater", clubId: "middlesbrough", seasonId: "2007-08", position: "CB", overall: 73, attributes: { pace: 54, shooting: 26, passing: 55, defending: 75, physical: 77 } },
+  { id: "middlesbrough-2007-08-emanuel-pogatetz", playerName: "Emanuel Pogatetz", clubId: "middlesbrough", seasonId: "2007-08", position: "CB", overall: 72, attributes: { pace: 56, shooting: 24, passing: 50, defending: 76, physical: 82 } },
+  { id: "middlesbrough-2007-08-andrew-taylor", playerName: "Andrew Taylor", clubId: "middlesbrough", seasonId: "2007-08", position: "LB", overall: 69, attributes: { pace: 71, shooting: 32, passing: 58, defending: 66, physical: 62 } },
+  { id: "middlesbrough-2007-08-julio-arca", playerName: "Julio Arca", clubId: "middlesbrough", seasonId: "2007-08", position: "LM", overall: 73, attributes: { pace: 70, shooting: 56, passing: 70, defending: 56, physical: 64 } },
+  { id: "middlesbrough-2007-08-fabio-rochemback", playerName: "Fabio Rochemback", clubId: "middlesbrough", seasonId: "2007-08", position: "CM", overall: 71, attributes: { pace: 58, shooting: 56, passing: 68, defending: 58, physical: 66 } },
+  { id: "middlesbrough-2007-08-stewart-downing", playerName: "Stewart Downing", clubId: "middlesbrough", seasonId: "2007-08", position: "LW", overall: 78, attributes: { pace: 80, shooting: 70, passing: 78, defending: 38, physical: 62 } },
+  { id: "middlesbrough-2007-08-mido", playerName: "Mido", clubId: "middlesbrough", seasonId: "2007-08", position: "ST", overall: 74, attributes: { pace: 60, shooting: 74, passing: 55, defending: 25, physical: 78 } },
+
+  // Newcastle United
+  { id: "newcastle-2007-08-shay-given", playerName: "Shay Given", clubId: "newcastle", seasonId: "2007-08", position: "GK", overall: 83, attributes: { pace: 42, shooting: 36, passing: 56, defending: 85, physical: 77 } },
+  { id: "newcastle-2007-08-steven-taylor", playerName: "Steven Taylor", clubId: "newcastle", seasonId: "2007-08", position: "CB", overall: 72, attributes: { pace: 58, shooting: 24, passing: 52, defending: 74, physical: 76 } },
+  { id: "newcastle-2007-08-habib-beye", playerName: "Habib Beye", clubId: "newcastle", seasonId: "2007-08", position: "RB", overall: 74, attributes: { pace: 74, shooting: 34, passing: 60, defending: 74, physical: 70 } },
+  { id: "newcastle-2007-08-jose-enrique", playerName: "Jose Enrique", clubId: "newcastle", seasonId: "2007-08", position: "LB", overall: 74, attributes: { pace: 76, shooting: 40, passing: 66, defending: 72, physical: 70 } },
+  { id: "newcastle-2007-08-joey-barton", playerName: "Joey Barton", clubId: "newcastle", seasonId: "2007-08", position: "CM", overall: 75, attributes: { pace: 60, shooting: 62, passing: 68, defending: 63, physical: 74 } },
+  { id: "newcastle-2007-08-charles-nzogbia", playerName: "Charles N'Zogbia", clubId: "newcastle", seasonId: "2007-08", position: "LM", overall: 75, attributes: { pace: 83, shooting: 64, passing: 70, defending: 34, physical: 58 } },
+  { id: "newcastle-2007-08-obafemi-martins", playerName: "Obafemi Martins", clubId: "newcastle", seasonId: "2007-08", position: "ST", overall: 79, attributes: { pace: 89, shooting: 78, passing: 55, defending: 25, physical: 62 } },
+  { id: "newcastle-2007-08-michael-owen", playerName: "Michael Owen", clubId: "newcastle", seasonId: "2007-08", position: "ST", overall: 80, attributes: { pace: 84, shooting: 84, passing: 58, defending: 25, physical: 60 } },
+
+  // Portsmouth (FA Cup winners)
+  { id: "portsmouth-2007-08-david-james", playerName: "David James", clubId: "portsmouth", seasonId: "2007-08", position: "GK", overall: 82, attributes: { pace: 44, shooting: 39, passing: 60, defending: 84, physical: 78 } },
+  { id: "portsmouth-2007-08-sol-campbell", playerName: "Sol Campbell", clubId: "portsmouth", seasonId: "2007-08", position: "CB", overall: 79, attributes: { pace: 56, shooting: 27, passing: 60, defending: 81, physical: 79 } },
+  { id: "portsmouth-2007-08-sylvain-distin", playerName: "Sylvain Distin", clubId: "portsmouth", seasonId: "2007-08", position: "CB", overall: 79, attributes: { pace: 62, shooting: 25, passing: 58, defending: 81, physical: 80 } },
+  { id: "portsmouth-2007-08-glen-johnson", playerName: "Glen Johnson", clubId: "portsmouth", seasonId: "2007-08", position: "RB", overall: 78, attributes: { pace: 84, shooting: 46, passing: 70, defending: 74, physical: 72 } },
+  { id: "portsmouth-2007-08-linvoy-primus", playerName: "Linvoy Primus", clubId: "portsmouth", seasonId: "2007-08", position: "CB", overall: 71, attributes: { pace: 46, shooting: 22, passing: 48, defending: 73, physical: 72 } },
+  { id: "portsmouth-2007-08-sulley-muntari", playerName: "Sulley Muntari", clubId: "portsmouth", seasonId: "2007-08", position: "CM", overall: 77, attributes: { pace: 70, shooting: 72, passing: 74, defending: 62, physical: 76 } },
+  { id: "portsmouth-2007-08-niko-kranjcar", playerName: "Niko Kranjcar", clubId: "portsmouth", seasonId: "2007-08", position: "CAM", overall: 77, attributes: { pace: 66, shooting: 74, passing: 79, defending: 38, physical: 58 } },
+  { id: "portsmouth-2007-08-kanu", playerName: "Kanu", clubId: "portsmouth", seasonId: "2007-08", position: "ST", overall: 74, attributes: { pace: 55, shooting: 74, passing: 68, defending: 27, physical: 65 }, note: "FA Cup final winning goal" },
+  { id: "portsmouth-2007-08-jermain-defoe", playerName: "Jermain Defoe", clubId: "portsmouth", seasonId: "2007-08", position: "ST", overall: 79, attributes: { pace: 86, shooting: 81, passing: 58, defending: 25, physical: 62 } },
+
+  // Reading (relegated, 18th)
+  { id: "reading-2007-08-marcus-hahnemann", playerName: "Marcus Hahnemann", clubId: "reading", seasonId: "2007-08", position: "GK", overall: 76, attributes: { pace: 40, shooting: 35, passing: 54, defending: 78, physical: 77 } },
+  { id: "reading-2007-08-ivar-ingimarsson", playerName: "Ivar Ingimarsson", clubId: "reading", seasonId: "2007-08", position: "CB", overall: 72, attributes: { pace: 50, shooting: 24, passing: 52, defending: 74, physical: 75 } },
+  { id: "reading-2007-08-ibrahima-sonko", playerName: "Ibrahima Sonko", clubId: "reading", seasonId: "2007-08", position: "CB", overall: 71, attributes: { pace: 56, shooting: 22, passing: 48, defending: 73, physical: 79 } },
+  { id: "reading-2007-08-graeme-murty", playerName: "Graeme Murty", clubId: "reading", seasonId: "2007-08", position: "RB", overall: 69, attributes: { pace: 58, shooting: 28, passing: 56, defending: 68, physical: 60 } },
+  { id: "reading-2007-08-nicky-shorey", playerName: "Nicky Shorey", clubId: "reading", seasonId: "2007-08", position: "LB", overall: 74, attributes: { pace: 70, shooting: 44, passing: 72, defending: 72, physical: 64 } },
+  { id: "reading-2007-08-james-harper", playerName: "James Harper", clubId: "reading", seasonId: "2007-08", position: "CM", overall: 71, attributes: { pace: 60, shooting: 54, passing: 66, defending: 64, physical: 66 } },
+  { id: "reading-2007-08-kevin-doyle", playerName: "Kevin Doyle", clubId: "reading", seasonId: "2007-08", position: "ST", overall: 77, attributes: { pace: 74, shooting: 75, passing: 55, defending: 30, physical: 74 } },
+  { id: "reading-2007-08-dave-kitson", playerName: "Dave Kitson", clubId: "reading", seasonId: "2007-08", position: "ST", overall: 74, attributes: { pace: 65, shooting: 74, passing: 54, defending: 26, physical: 71 } },
+
+  // Tottenham Hotspur (League Cup winners)
+  { id: "tottenham-2007-08-paul-robinson", playerName: "Paul Robinson", clubId: "tottenham", seasonId: "2007-08", position: "GK", overall: 78, attributes: { pace: 42, shooting: 37, passing: 57, defending: 80, physical: 76 } },
+  { id: "tottenham-2007-08-ledley-king", playerName: "Ledley King", clubId: "tottenham", seasonId: "2007-08", position: "CB", overall: 80, attributes: { pace: 62, shooting: 27, passing: 64, defending: 83, physical: 79 } },
+  { id: "tottenham-2007-08-michael-dawson", playerName: "Michael Dawson", clubId: "tottenham", seasonId: "2007-08", position: "CB", overall: 77, attributes: { pace: 60, shooting: 27, passing: 59, defending: 79, physical: 78 } },
+  { id: "tottenham-2007-08-pascal-chimbonda", playerName: "Pascal Chimbonda", clubId: "tottenham", seasonId: "2007-08", position: "RB", overall: 74, attributes: { pace: 74, shooting: 34, passing: 60, defending: 72, physical: 66 } },
+  { id: "tottenham-2007-08-didier-zokora", playerName: "Didier Zokora", clubId: "tottenham", seasonId: "2007-08", position: "CDM", overall: 75, attributes: { pace: 68, shooting: 46, passing: 66, defending: 76, physical: 77 } },
+  { id: "tottenham-2007-08-jermaine-jenas", playerName: "Jermaine Jenas", clubId: "tottenham", seasonId: "2007-08", position: "CM", overall: 75, attributes: { pace: 74, shooting: 62, passing: 73, defending: 53, physical: 63 } },
+  { id: "tottenham-2007-08-aaron-lennon", playerName: "Aaron Lennon", clubId: "tottenham", seasonId: "2007-08", position: "RW", overall: 77, attributes: { pace: 93, shooting: 62, passing: 65, defending: 30, physical: 55 } },
+  { id: "tottenham-2007-08-dimitar-berbatov", playerName: "Dimitar Berbatov", clubId: "tottenham", seasonId: "2007-08", position: "ST", overall: 85, attributes: { pace: 64, shooting: 85, passing: 76, defending: 28, physical: 73 }, note: "League Cup winner, sublime individual skill" },
+  { id: "tottenham-2007-08-robbie-keane", playerName: "Robbie Keane", clubId: "tottenham", seasonId: "2007-08", position: "ST", overall: 80, attributes: { pace: 72, shooting: 80, passing: 64, defending: 26, physical: 65 } },
+
+  // Sunderland
+  { id: "sunderland-2007-08-craig-gordon", playerName: "Craig Gordon", clubId: "sunderland", seasonId: "2007-08", position: "GK", overall: 79, attributes: { pace: 42, shooting: 38, passing: 58, defending: 81, physical: 76 }, note: "Record-fee goalkeeper signing" },
+  { id: "sunderland-2007-08-danny-higginbotham", playerName: "Danny Higginbotham", clubId: "sunderland", seasonId: "2007-08", position: "CB", overall: 72, attributes: { pace: 54, shooting: 25, passing: 55, defending: 75, physical: 74 } },
+  { id: "sunderland-2007-08-nyron-nosworthy", playerName: "Nyron Nosworthy", clubId: "sunderland", seasonId: "2007-08", position: "CB", overall: 70, attributes: { pace: 60, shooting: 24, passing: 50, defending: 72, physical: 74 } },
+  { id: "sunderland-2007-08-danny-collins", playerName: "Danny Collins", clubId: "sunderland", seasonId: "2007-08", position: "CB", overall: 68, attributes: { pace: 52, shooting: 22, passing: 48, defending: 70, physical: 70 } },
+  { id: "sunderland-2007-08-kieran-richardson", playerName: "Kieran Richardson", clubId: "sunderland", seasonId: "2007-08", position: "LM", overall: 72, attributes: { pace: 80, shooting: 60, passing: 66, defending: 44, physical: 62 } },
+  { id: "sunderland-2007-08-andy-reid", playerName: "Andy Reid", clubId: "sunderland", seasonId: "2007-08", position: "CAM", overall: 73, attributes: { pace: 56, shooting: 68, passing: 76, defending: 45, physical: 62 } },
+  { id: "sunderland-2007-08-kenwyne-jones", playerName: "Kenwyne Jones", clubId: "sunderland", seasonId: "2007-08", position: "ST", overall: 75, attributes: { pace: 78, shooting: 74, passing: 54, defending: 28, physical: 78 } },
+  { id: "sunderland-2007-08-michael-chopra", playerName: "Michael Chopra", clubId: "sunderland", seasonId: "2007-08", position: "ST", overall: 73, attributes: { pace: 80, shooting: 74, passing: 50, defending: 25, physical: 60 } },
+
+  // West Ham United
+  { id: "west-ham-2007-08-robert-green", playerName: "Robert Green", clubId: "west-ham", seasonId: "2007-08", position: "GK", overall: 78, attributes: { pace: 42, shooting: 37, passing: 57, defending: 80, physical: 76 } },
+  { id: "west-ham-2007-08-anton-ferdinand", playerName: "Anton Ferdinand", clubId: "west-ham", seasonId: "2007-08", position: "CB", overall: 74, attributes: { pace: 64, shooting: 25, passing: 57, defending: 75, physical: 75 } },
+  { id: "west-ham-2007-08-james-collins", playerName: "James Collins", clubId: "west-ham", seasonId: "2007-08", position: "CB", overall: 74, attributes: { pace: 54, shooting: 27, passing: 52, defending: 77, physical: 79 } },
+  { id: "west-ham-2007-08-george-mccartney", playerName: "George McCartney", clubId: "west-ham", seasonId: "2007-08", position: "LB", overall: 72, attributes: { pace: 72, shooting: 38, passing: 62, defending: 71, physical: 66 } },
+  { id: "west-ham-2007-08-lucas-neill", playerName: "Lucas Neill", clubId: "west-ham", seasonId: "2007-08", position: "RB", overall: 77, attributes: { pace: 74, shooting: 38, passing: 63, defending: 77, physical: 74 }, note: "Captain" },
+  { id: "west-ham-2007-08-nigel-reo-coker", playerName: "Nigel Reo-Coker", clubId: "west-ham", seasonId: "2007-08", position: "CM", overall: 76, attributes: { pace: 68, shooting: 56, passing: 68, defending: 68, physical: 72 } },
+  { id: "west-ham-2007-08-mark-noble", playerName: "Mark Noble", clubId: "west-ham", seasonId: "2007-08", position: "CM", overall: 73, attributes: { pace: 60, shooting: 58, passing: 72, defending: 64, physical: 68 }, note: "Academy graduate breakout" },
+  { id: "west-ham-2007-08-yossi-benayoun", playerName: "Yossi Benayoun", clubId: "west-ham", seasonId: "2007-08", position: "CAM", overall: 80, attributes: { pace: 72, shooting: 73, passing: 80, defending: 42, physical: 58 }, note: "Final Hammers season before Liverpool move" },
+  { id: "west-ham-2007-08-craig-bellamy", playerName: "Craig Bellamy", clubId: "west-ham", seasonId: "2007-08", position: "ST", overall: 80, attributes: { pace: 88, shooting: 79, passing: 60, defending: 28, physical: 65 } },
+
+  // Wigan Athletic
+  { id: "wigan-2007-08-chris-kirkland", playerName: "Chris Kirkland", clubId: "wigan", seasonId: "2007-08", position: "GK", overall: 74, attributes: { pace: 40, shooting: 34, passing: 55, defending: 76, physical: 76 } },
+  { id: "wigan-2007-08-titus-bramble", playerName: "Titus Bramble", clubId: "wigan", seasonId: "2007-08", position: "CB", overall: 70, attributes: { pace: 62, shooting: 23, passing: 53, defending: 71, physical: 71 } },
+  { id: "wigan-2007-08-paul-scharner", playerName: "Paul Scharner", clubId: "wigan", seasonId: "2007-08", position: "CB", overall: 74, attributes: { pace: 60, shooting: 46, passing: 62, defending: 75, physical: 78 } },
+  { id: "wigan-2007-08-emmerson-boyce", playerName: "Emmerson Boyce", clubId: "wigan", seasonId: "2007-08", position: "RB", overall: 72, attributes: { pace: 74, shooting: 34, passing: 58, defending: 71, physical: 68 } },
+  { id: "wigan-2007-08-denny-landzaat", playerName: "Denny Landzaat", clubId: "wigan", seasonId: "2007-08", position: "CDM", overall: 71, attributes: { pace: 58, shooting: 52, passing: 66, defending: 68, physical: 68 } },
+  { id: "wigan-2007-08-antonio-valencia", playerName: "Antonio Valencia", clubId: "wigan", seasonId: "2007-08", position: "RW", overall: 76, attributes: { pace: 88, shooting: 66, passing: 72, defending: 34, physical: 66 }, note: "Breakout Ecuadorian winger" },
+  { id: "wigan-2007-08-amr-zaki", playerName: "Amr Zaki", clubId: "wigan", seasonId: "2007-08", position: "ST", overall: 76, attributes: { pace: 82, shooting: 78, passing: 50, defending: 25, physical: 74 }, note: "Electrifying scoring form" },
+  { id: "wigan-2007-08-marcus-bent", playerName: "Marcus Bent", clubId: "wigan", seasonId: "2007-08", position: "ST", overall: 72, attributes: { pace: 72, shooting: 70, passing: 46, defending: 25, physical: 74 } },
 ];
