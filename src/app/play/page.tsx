@@ -3,16 +3,19 @@
 import { useState } from "react";
 import Link from "next/link";
 import { DraftedPlayer, Formation } from "@/types/game";
+import { Difficulty } from "@/lib/difficulty";
+import { DifficultyPicker } from "@/components/DifficultyPicker";
 import { FormationPicker } from "@/components/FormationPicker";
 import { DraftScreen } from "@/components/DraftScreen";
 import { SeasonRunner } from "@/components/SeasonRunner";
 import { PitchFormation } from "@/components/PitchFormation";
 import { ratePlayers } from "@/lib/team";
 
-type Phase = "formation" | "draft" | "review" | "season";
+type Phase = "difficulty" | "formation" | "draft" | "review" | "season";
 
 export default function PlayPage() {
-  const [phase, setPhase] = useState<Phase>("formation");
+  const [phase, setPhase] = useState<Phase>("difficulty");
+  const [difficulty, setDifficulty] = useState<Difficulty | null>(null);
   const [formation, setFormation] = useState<Formation | null>(null);
   const [filled, setFilled] = useState<Record<string, DraftedPlayer> | null>(null);
 
@@ -22,10 +25,21 @@ export default function PlayPage() {
         <Link href="/" className="font-mono text-lg font-black tracking-tight">
           38<span className="text-accent">-</span>0
         </Link>
-        {formation && (
-          <div className="text-xs text-muted">{formation.label}</div>
-        )}
+        <div className="flex items-center gap-2 text-xs text-muted">
+          {difficulty && <span>{difficulty.label}</span>}
+          {difficulty && formation && <span>&middot;</span>}
+          {formation && <span>{formation.label}</span>}
+        </div>
       </header>
+
+      {phase === "difficulty" && (
+        <DifficultyPicker
+          onSelect={(d) => {
+            setDifficulty(d);
+            setPhase("formation");
+          }}
+        />
+      )}
 
       {phase === "formation" && (
         <FormationPicker
@@ -36,9 +50,10 @@ export default function PlayPage() {
         />
       )}
 
-      {phase === "draft" && formation && (
+      {phase === "draft" && formation && difficulty && (
         <DraftScreen
           formation={formation}
+          rerolls={difficulty.rerolls}
           onComplete={(f) => {
             setFilled(f);
             setPhase("review");

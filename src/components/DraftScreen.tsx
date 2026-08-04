@@ -11,9 +11,11 @@ import { mulberry32, newSeed } from "@/lib/rng";
 
 export function DraftScreen({
   formation,
+  rerolls,
   onComplete,
 }: {
   formation: Formation;
+  rerolls: number;
   onComplete: (filled: Record<string, DraftedPlayer>) => void;
 }) {
   const rng = useMemo(() => mulberry32(newSeed()), []);
@@ -23,6 +25,7 @@ export function DraftScreen({
   const [usedPlayerIds, setUsedPlayerIds] = useState<Set<string>>(new Set());
   const [spunKeys, setSpunKeys] = useState<Set<string>>(new Set());
   const [landed, setLanded] = useState<{ clubId: string; seasonId: string } | null>(null);
+  const [rerollsLeft, setRerollsLeft] = useState(rerolls);
 
   const filledCount = Object.values(filled).filter(Boolean).length;
   const total = formation.slots.length;
@@ -38,6 +41,14 @@ export function DraftScreen({
 
   function handleLanded(choice: { clubId: string; seasonId: string }) {
     setSpunKeys((prev) => new Set(prev).add(`${choice.clubId}__${choice.seasonId}`));
+    setLanded(choice);
+  }
+
+  function handleReroll() {
+    if (rerollsLeft <= 0) return;
+    const choice = spinWheel(rng, spunKeys);
+    setSpunKeys((prev) => new Set(prev).add(`${choice.clubId}__${choice.seasonId}`));
+    setRerollsLeft((r) => r - 1);
     setLanded(choice);
   }
 
@@ -81,10 +92,24 @@ export function DraftScreen({
         )}
 
         {landed && (
-          <div className="animate-fade-in-up rounded-2xl border border-accent/40 bg-surface p-5">
-            <div className="mb-3 text-sm text-muted">
-              Landed on <span className="font-semibold text-foreground">{clubName(landed.clubId)}</span>{" "}
-              &middot; {seasonLabel(landed.seasonId)} &mdash; draft one player:
+          <div
+            key={`${landed.clubId}__${landed.seasonId}__${rerollsLeft}`}
+            className="animate-pop-in rounded-2xl border border-accent/40 bg-surface p-5"
+          >
+            <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+              <div className="text-sm text-muted">
+                Landed on <span className="font-semibold text-foreground">{clubName(landed.clubId)}</span>{" "}
+                &middot; {seasonLabel(landed.seasonId)} &mdash; draft one player:
+              </div>
+              <button
+                type="button"
+                onClick={handleReroll}
+                disabled={rerollsLeft <= 0}
+                title={rerollsLeft <= 0 ? "No rerolls left" : "Discard this club and spin again"}
+                className="flex shrink-0 items-center gap-1.5 rounded-full border border-border px-3 py-1.5 text-xs font-semibold text-muted transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-border disabled:hover:text-muted"
+              >
+                ↻ Reroll ({rerollsLeft})
+              </button>
             </div>
             <div className="grid gap-2 sm:grid-cols-2">
               {candidates.map((p) => (
