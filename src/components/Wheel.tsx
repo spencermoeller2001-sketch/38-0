@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { CLUB_MAP } from "@/data/clubs";
 import { SEASON_MAP } from "@/data/seasons";
 import { playableClubSeasons } from "@/lib/data";
+import { readableTextColor } from "@/lib/color";
 
 const ITEM_WIDTH = 108;
 const REEL_LENGTH = 36;
@@ -101,8 +102,11 @@ export function Wheel({
                 style={{ width: ITEM_WIDTH }}
               >
                 <div
-                  className="flex h-12 w-12 items-center justify-center rounded-full text-[11px] font-bold text-white shadow"
-                  style={{ backgroundColor: club?.primary ?? "#334155" }}
+                  className="flex h-12 w-12 items-center justify-center rounded-full text-[11px] font-bold shadow"
+                  style={{
+                    backgroundColor: club?.primary ?? "#334155",
+                    color: readableTextColor(club?.primary ?? "#334155"),
+                  }}
                 >
                   {club?.shortName ?? "?"}
                 </div>

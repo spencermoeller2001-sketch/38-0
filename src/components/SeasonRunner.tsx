@@ -20,7 +20,11 @@ export function SeasonRunner({
   const squad = useMemo(() => Object.values(filled), [filled]);
   const ratings = useMemo(() => ratePlayers(squad), [squad]);
   const rng = useMemo(() => mulberry32(newSeed()), []);
-  const fixtures = useMemo(() => generateFixtures(rng, new Set()), [rng]);
+  const draftedClubSeasons = useMemo(
+    () => new Set(squad.map((p) => `${p.clubId}__${p.seasonId}`)),
+    [squad]
+  );
+  const fixtures = useMemo(() => generateFixtures(rng, draftedClubSeasons), [rng, draftedClubSeasons]);
 
   const [index, setIndex] = useState(0);
   const [record, setRecord] = useState<SeasonRecord>(emptyRecord());

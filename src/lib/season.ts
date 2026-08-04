@@ -14,7 +14,7 @@ export function generateFixtures(rng: Rng, userClubSeasons: Set<string>): Fixtur
     let choice = pick(rng, pool);
     let key = `${choice.clubId}__${choice.seasonId}`;
     let attempts = 0;
-    while (recent.includes(key) && attempts < 20) {
+    while ((recent.includes(key) || userClubSeasons.has(key)) && attempts < 20) {
       choice = pick(rng, pool);
       key = `${choice.clubId}__${choice.seasonId}`;
       attempts++;

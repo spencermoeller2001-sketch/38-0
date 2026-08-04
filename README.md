@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 38-0
 
-## Getting Started
+An unofficial, fan-made football draft game. Spin a wheel to land on a real
+English top-flight club and season, draft a player from that squad, and
+repeat until your XI is complete. Then simulate a 38-game season, live, and
+see if your squad can go unbeaten.
 
-First, run the development server:
+Built with Next.js, TypeScript, and Tailwind CSS.
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How it works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Formation** — choose 4-3-3, 4-4-2, or 4-2-3-1.
+- **Draft** — spin the wheel, pick a player from the landed club/season, repeat
+  for all 11 slots. Players are drawn from a hand-curated dataset covering
+  every English top-flight season from 1992-93 to 2025-26 across 51 clubs
+  (`src/data/players/`), with independent 1-99 ratings for gameplay.
+- **Season** — simulate 38 fixtures against opponents drawn from the same
+  pool of historical club-seasons, with a live match viewer (event ticker +
+  animated mini-pitch) and a running record/table.
+- **Summary** — final record, shareable result grid, and full fixture list.
 
-## Learn More
+## Project structure
 
-To learn more about Next.js, take a look at the following resources:
+- `src/types/game.ts` — core data model (players, clubs, seasons, formations, matches).
+- `src/data/` — canonical clubs list, season-by-club participation table, and player-season dataset.
+- `src/lib/` — draft logic, match simulation engine, season/fixture generation, team rating math.
+- `src/components/` — UI: wheel, draft screen, pitch/formation view, live match viewer, season dashboard.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Disclaimer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+38-0 is an independent fan project. It is not affiliated with, endorsed by,
+or sponsored by any football league, competition, club, or governing body.
+Player ratings are an original, independent interpretation for gameplay
+purposes.

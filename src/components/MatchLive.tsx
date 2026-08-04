@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import { MatchResult } from "@/types/game";
-import { CLUB_MAP } from "@/data/clubs";
 
 const EVENT_DELAY_MS: Record<string, number> = {
   goal: 1600,

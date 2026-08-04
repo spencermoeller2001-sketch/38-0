@@ -2,6 +2,7 @@
 
 import { DraftedPlayer, Formation } from "@/types/game";
 import { CLUB_MAP } from "@/data/clubs";
+import { readableTextColor } from "@/lib/color";
 
 export function PitchFormation({
   formation,
@@ -34,12 +35,12 @@ export function PitchFormation({
         const player = filled[slot.id];
         const highlighted = highlightSlotIds?.has(slot.id);
         const club = player ? CLUB_MAP[player.clubId] : null;
+        const Tag = onSlotClick ? "button" : "div";
         return (
-          <button
+          <Tag
             key={slot.id}
-            type="button"
-            disabled={!onSlotClick}
-            onClick={() => onSlotClick?.(slot.id)}
+            type={onSlotClick ? "button" : undefined}
+            onClick={onSlotClick ? () => onSlotClick(slot.id) : undefined}
             className={`absolute flex -translate-x-1/2 -translate-y-1/2 flex-col items-center ${
               onSlotClick ? "cursor-pointer" : ""
             }`}
@@ -50,12 +51,19 @@ export function PitchFormation({
                 compact ? "h-8 w-8 text-[10px]" : "h-11 w-11 text-xs sm:h-12 sm:w-12"
               } ${
                 player
-                  ? "border-white/80 text-white"
+                  ? "border-white/80"
                   : highlighted
                   ? "animate-pulse-ring border-accent bg-accent/20 text-accent"
                   : "border-dashed border-white/50 bg-white/10 text-white/70"
               }`}
-              style={player ? { backgroundColor: club?.primary ?? "#334155" } : undefined}
+              style={
+                player
+                  ? {
+                      backgroundColor: club?.primary ?? "#334155",
+                      color: readableTextColor(club?.primary ?? "#334155"),
+                    }
+                  : undefined
+              }
             >
               {player ? player.overall : slot.position}
             </div>
@@ -64,7 +72,7 @@ export function PitchFormation({
                 {player ? player.playerName.split(" ").slice(-1)[0] : slot.position}
               </span>
             )}
-          </button>
+          </Tag>
         );
       })}
     </div>
